@@ -3,6 +3,7 @@
 ## Tool Preferences
 
 - When searching file contents, always use `rg` (ripgrep) via the terminal instead of the built-in grep tool.
+- When finding files, always use `fd` via the terminal instead of `find`.
 
 ## Project Context
 
