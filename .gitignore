@@ -1,5 +1,6 @@
 # AI agent local configs
 .kiro
+!.kiro/steering/
 .cursor
 .windsurf
 .cline
