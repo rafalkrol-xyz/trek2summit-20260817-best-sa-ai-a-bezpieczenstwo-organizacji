@@ -776,7 +776,28 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 <!-- end_slide -->
 
-## Od zagrożeń do rozwiązań
+## 🛡️ Od zagrożeń do rozwiązań
+
+### Zmiana perspektywy:
+
+> **„Wiedza o zagrożeniach to nie słabość — to supermoc."**
+
+<!-- pause -->
+
+- 🧠 **Znasz wektory ataku** → potrafisz je rozpoznać zanim zadziałają
+- 🔍 **Rozumiesz halucynacje** → weryfikujesz zamiast ślepo ufać
+- 🎯 **Widzisz Shadow AI** → wybierasz bezpieczne, zatwierdzone narzędzia
+- 🛡️ **Wiesz, czym jest prompt injection** → nie dasz się zmanipulować
+
+<!-- pause -->
+
+### Co dalej?
+
+Konkretne **best practices**, **frameworki** i **narzędzia** — zarówno dla Was indywidualnie, jak i dla całej organizacji.
+
+<!-- pause -->
+
+![](images/it-security-awareness-meme.jpg)
 
 <!-- end_slide -->
 
