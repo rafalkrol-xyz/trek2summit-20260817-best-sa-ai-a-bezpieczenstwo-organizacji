@@ -1069,22 +1069,26 @@ sprawdź uprawnienia Copilota i swoich agentów AI — czy potwierdzenia przed a
 
 <!-- end_slide -->
 
-## Q&A
+# Dziękuję za uwagę i czekam na pytania
 
 <!-- pause -->
 
-Dziękuję za uwagę!
+## 📧 **bezpieczenstwo@best.com.pl** — pytania, prośby, zażalenia
+## 📧 **rafal.krol@trek2summit.com** — AWS, AI, przeglądy bezpieczeństwa, kawa specialty
 
-- 📧 **pbi@best.com.pl** — bezpieczeństwo AI w BEST S.A.
-- 📧 **rafal.krol@trek2summit.com** — kontekst techniczny (AWS, AI)
-- 💬 **#bezpieczenstwo-ai** na Teams
+### 🌐 www.trek2summit.com
+### 🌐 linkedin.com/company/trek2summit
+#### 🤝 linkedin.com/in/rafal-krol
+#### 🛠️ github.com/rafalkrol-xyz/mAI-consigliere
 
-**Do pogłębienia tematu:**
-whitepaper „Security w środowiskach AI/ML na platformie AWS" — Trek2Summit
+---
+
+# Do pogłębienia tematu:
+## Whitepaper „Security w środowiskach AI/ML na platformie AWS" — dostępny na żądanie
+## (PL) webinar o Microsoft Intune: www.trek2summit.com/events/whats-new-intune/
+## (EN) webinar o Amazon Quick: www.trek2summit.com/events/first-steps-with-amazon-quick/
 
 <!-- pause -->
 
-> _„The only truly secure system is one that is powered off, cast in a block of concrete, and sealed in a lead-lined room with armed guards."_
-> — Gene Spafford
-
-...ale wtedy nie da się korzystać z AI. Więc bądźmy pragmatyczni. 😉
+> _"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards — and even then I have my doubts."_
+> — Gene Spafford, profesor informatyki na Uniwersytecie Purdue
