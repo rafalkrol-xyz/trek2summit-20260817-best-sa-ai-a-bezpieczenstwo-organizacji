@@ -941,6 +941,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 <!-- pause -->
 
 > **„Dobra polityka bezpieczeństwa jest jak pas w samochodzie — nie ogranicza prędkości, ale pozwala jechać pewniej."**
+> Kiro, Agent AI
 
 <!-- pause -->
 
@@ -975,6 +976,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 <!-- pause -->
 
 > **PBI jest po to, żeby pomóc Wam korzystać z AI bezpiecznie — nie żeby karać za pytania.**
+> Kamil Gapiński, Senior Cybersecurity Engineer w PBI
 
 <!-- pause -->
 
