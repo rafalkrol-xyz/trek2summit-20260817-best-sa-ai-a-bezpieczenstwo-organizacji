@@ -1102,10 +1102,102 @@ Czas: ~90 sekund.
 
 ## Podsumowanie — 5 key takeaways
 
+### Co zabieracie z dzisiejszego spotkania:
+
+<!-- pause -->
+
+**1. Klasyfikuj dane ZANIM trafią do AI**
+- Enterprise tools (Copilot, AWS Bedrock) chronią Twoje dane — consumer tools nie
+- Zasada: jeśli nie wysłałbyś tego mailem nieznajomemu, nie wklejaj do AI
+
+<!-- pause -->
+
+**2. Używaj wyłącznie zatwierdzonych narzędzi AI**
+- Shadow AI = niekontrolowane ryzyko bez audit trail
+- Lista zatwierdzonych narzędzi → PBI, kanał #bezpieczenstwo-ai
+
+<!-- pause -->
+
+**3. Weryfikuj nietypowe prośby DRUGIM kanałem**
+- AI phishing i deepfake pokonują tradycyjne metody wykrywania
+- Zasada: pilne + finansowe + nietypowe = ZAWSZE callback na znany numer
+
+<!-- pause -->
+
+**4. Agenci AI — domyślnie read-only**
+- Principle of least privilege: write/execute tylko na jawnie zatwierdzonym scope
+- Jeden klik "Trust always" = pełny dostęp do systemu
+
+<!-- pause -->
+
+**5. PBI to Wasz partner — pytajcie PRZED, nie PO incydencie**
+- Zgłoszenie wątpliwości ≠ kara. Brak zgłoszenia = ryzyko
+- Szybka ocena narzędzia > tygodnie incident response
+
+<!-- pause -->
+
+---
+
+**Jedno działanie na poniedziałek:**
+Sprawdź swoje ustawienia Copilot i uprawnienia agentów AI — czy masz włączone potwierdzenia przed wykonaniem akcji?
+
 <!-- end_slide -->
 
 ## Call-to-action — odpowiedzialne AI + PBI
 
+### AI to narzędzie — od Was zależy, czy będzie bezpieczne
+
+<!-- pause -->
+
+> **„Nie musisz być ekspertem od bezpieczeństwa AI.**
+> **Musisz tylko wiedzieć, kiedy zapytać kogoś, kto jest."**
+
+<!-- pause -->
+
+### Co możesz zrobić już dziś:
+
+- ✅ **Przejrzyj listę zatwierdzonych narzędzi** — czy używasz czegoś, czego tam nie ma?
+- ✅ **Sprawdź ustawienia uprawnień** w Copilot i narzędziach deweloperskich
+- ✅ **Ustal z zespołem passphrase** do weryfikacji nietypowych próśb głosowych/wideo
+- ✅ **Zapisz kontakt do PBI** — bo w momencie incydentu nie chcesz go szukać
+
+<!-- pause -->
+
+### PBI = Pion Bezpieczeństwa Informacji
+
+- 📧 **pbi@best.com.pl**
+- 💬 Teams: **#bezpieczenstwo-ai**
+- 🗓️ Konsultacje: umów spotkanie — bez formalizmu
+
+<!-- pause -->
+
+> **PBI nie karze za pytania. PBI karze brak pytań.**
+>
+> Każde zgłoszenie to wzmocnienie bezpieczeństwa organizacji — nie słabość.
+
+<!-- pause -->
+
+### Korzystajcie z AI — ale świadomie, z głową i z nami. 🛡️
+
 <!-- end_slide -->
 
 ## Q&A
+
+### Pytania i dyskusja
+
+<!-- pause -->
+
+Dziękuję za uwagę!
+
+Jeśli macie pytania — teraz lub później:
+
+- 📧 **pbi@best.com.pl** — bezpieczeństwo AI
+- 📧 **rafal.krol@trek2summit.com** — kontekst techniczny (AWS, AI)
+- 💬 **#bezpieczenstwo-ai** na Teams
+
+<!-- pause -->
+
+> _„The only truly secure system is one that is powered off, cast in a block of concrete, and sealed in a lead-lined room with armed guards."_
+> — Gene Spafford
+
+...ale wtedy nie da się korzystać z AI. Więc bądźmy pragmatyczni. 😉
