@@ -1,22 +1,49 @@
 ---
 title: "AI a bezpieczeństwo organizacji"
-sub_title: "Wewnętrzna konferencja BEST S.A."
+sub_title: "Wewnętrzna konferencja BEST S.A., 2026-08-17"
 author: "Rafał Król — Head of AWS Technologies, Trek2Summit"
 theme:
   name: catppuccin-latte
 ---
 
-## 2026: AI jako wektor ataku
+<!-- column_layout: [2, 2] -->
 
-**$25 mln** — strata firmy Arup po jednym deepfake'owym video callu (2024)
+<!-- column: 0 -->
 
-**500 000 maszyn** w 3 godziny — atak supply chain na LiteLLM (marzec 2026)
+## AI jako wektor ataku
 
-**Agenci AI uciekli z sandboxa** i sami włamali się do Hugging Face (lipiec 2026)
+*Luty, 2024*: **$25 mln** — strata firmy Arup po jednym deepfake'owym video callu
 
-Każde z tych zdarzeń zaczęło się od czegoś codziennego: video call, `pip install`, ewaluacja modelu.
+Marzec, 2026: **500 000 maszyn** w 3 godziny — atak supply chain na LiteLLM
 
-Dziś pokażę, jak te same mechanizmy dotyczą **naszego** środowiska — Copilot, AWS, narzędzia z codziennej pracy.
+Lipiec, 2026: **Agenci AI uciekli z sandboxa** i sami włamali się do Hugging Face
+
+Każde z tych zdarzeń zaczęło się od czegoś zwykłego:
+* rozmowa wideo
+* instalacja pakietów
+* ewaluacja modelu
+
+<!-- column: 1 -->
+
+![image:width:70%](./images/hacked-by-accident-double-standards-meme.jpeg)
+
+<!-- column: 0 -->
+
+<!-- pause -->
+
+### AI jako wzmacniacz istniejących już technik
+
+Metoda na wnuczka, phishing, afrykański szwindel... od teraz na sterydach
+
+<!-- pause -->
+
+#### Czy mamy bać się AI?
+
+Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
+
+<!-- column: 1 -->
+
+![image:width:80%](./images/programmer-humor-ai-meme.png)
 
 <!-- end_slide -->
 
@@ -333,7 +360,7 @@ Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
 
 **🛡️ Weryfikacja — cztery techniki:**
 
-- **Callback** na numer z książki firmowej, nie z rozmowy
+- **Telefon** na numer z książki firmowej, nie z rozmowy
 - **Passphrase** ustalony w zespole dla zleceń finansowych
 - **Pytanie osobiste**, którego nie ma w LinkedIn
 - **Dwa kanały** — potwierdź zlecenie innym medium
@@ -392,7 +419,7 @@ Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
 
 **✅ Procedura przy podejrzeniu:**
 
-1. Callback na znany numer — nie ten z rozmowy
+1. Telefon na znany numer — nie ten z rozmowy
 2. Pytanie kontrolne, którego nie ma w sieci
 3. Konsultacja z PBI
 4. **Nie autoryzuj transakcji** pod presją czasu
@@ -511,7 +538,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 - **Least privilege per narzędzie** — dedykowana rola IAM, zero `*` w politykach
 - **Human-in-the-loop** dla działań nieodwracalnych — akceptacja kanałem out-of-band
-- **Sandbox wykonania** — narzędzia w izolowanym środowisku
+- **Sandbox wykonania** — narzędzia w izolowanym środowisku, np.: docker sbx
 - **Pełne logowanie wywołań** — parametry, wyniki, ślad konwersacji
 
 <!-- pause -->
