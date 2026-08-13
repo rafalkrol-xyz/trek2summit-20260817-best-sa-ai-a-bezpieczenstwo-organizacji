@@ -803,33 +803,300 @@ Konkretne **best practices**, **frameworki** i **narzędzia** — zarówno dla W
 
 ## Zasady bezpiecznego korzystania z AI (1/2)
 
+### 👤 Zachowania indywidualne — co robić (i czego unikać)
+
+<!-- pause -->
+
+- ✅ **Klasyfikuj dane PRZED wklejeniem** — zastanów się: „czy to jest publiczne?"
+  - → Pozwala Ci korzystać z AI bez ryzyka wycieku i stresu
+- ✅ **Weryfikuj każdy output AI** — traktuj odpowiedzi jak draft od junior kolegi
+  - → Chroni Twoją reputację i jakość pracy
+- ✅ **Używaj tylko zatwierdzonych narzędzi** — lista dostępna u PBI
+  - → Masz pewność, że dane nie wyciekną do treningu modeli
+
+<!-- pause -->
+
+- ❌ **NIE wklejaj danych klientów** do niezatwierdzonych chatbotów
+- ❌ **NIE kopiuj kodu produkcyjnego** do publicznych modeli AI
+- ❌ **NIE ufaj AI w kwestiach prawnych/regulacyjnych** bez weryfikacji źródłowej
+
+<!-- pause -->
+
+- 🔑 **Zasada kciuka**: jeśli nie wysłałbyś tego mailem do nieznajomego — nie wklejaj do AI
+
 <!-- end_slide -->
 
 ## Zasady bezpiecznego korzystania z AI (2/2)
+
+### 🏢 Polityki organizacyjne — enablery innowacji
+
+<!-- pause -->
+
+- 📋 **Rejestr zatwierdzonych narzędzi AI** — prowadzony przez PBI
+  - → Pracownik wie od razu, czego może używać bez dodatkowych pytań
+- 🔒 **Polityka klasyfikacji danych dla AI** — jasne kategorie: publiczne / wewnętrzne / poufne
+  - → Eliminuje niepewność; wiesz co wolno, nie blokujesz się
+- 🔍 **Audit logging interakcji z AI** — kto, kiedy, jakie dane
+  - → Szybka reakcja na incydent; ochrona organizacji i pracownika
+- 👁️ **Human-in-the-loop dla decyzji krytycznych** — AI sugeruje, człowiek decyduje
+  - → Innowacja bez ryzyka autonomicznych błędów
+
+<!-- pause -->
+
+### 🎯 Dodatkowe zasady bezpieczeństwa
+
+- 🔄 **Regularny red-teaming narzędzi AI** — testuj zanim atakujący to zrobi
+- ⚙️ **Principle of least privilege dla agentów AI** — domyślnie read-only
+  - → Twój agent AI nie usunie przypadkiem repo produkcyjnego
+- 📚 **Szkolenia i awareness** — takie jak to dzisiejsze spotkanie
+
+<!-- pause -->
+
+> **Polityka bezpieczeństwa AI ≠ zakaz innowacji**
+> To GPS dla Twojej kreatywności — pokazuje bezpieczną trasę, nie blokuje celu.
 
 <!-- end_slide -->
 
 ## Framework oceny ryzyka narzędzi AI
 
+### ✅ Checklist: zanim zaczniesz używać nowego narzędzia AI
+
+<!-- pause -->
+
+**1. Gdzie trafiają moje dane?**
+- Czy narzędzie przechowuje/trenuje na moich danych?
+- Czy dane zostają w EU/wybranym regionie?
+- Czy to wersja enterprise z izolacją danych (tenant separation)?
+
+<!-- pause -->
+
+**2. Kto ma do tego dostęp i kontrolę?**
+- Czy IT/PBI zna i zatwierdza to narzędzie?
+- Czy mogę kontrolować, jakie dane udostępniam?
+- Czy istnieje audit log moich interakcji?
+
+<!-- pause -->
+
+**3. Co się stanie, gdy AI się pomyli?**
+- Czy wynik AI wpływa na decyzje finansowe/prawne/klienckie?
+- Czy mam proces weryfikacji output'u przed użyciem?
+- Czy konsekwencje błędu są odwracalne?
+
+<!-- pause -->
+
+**4. Czy istnieje zatwierdzona alternatywa?**
+- Copilot, Azure OpenAI, AWS Bedrock → **tak, używaj ich**
+- Brak pewności → **zapytaj PBI zanim zaczniesz**
+
 <!-- end_slide -->
 
 ## Narzędzia bezpieczeństwa — AWS
+
+**Narzędzia, które macie (lub będziecie mieć) do dyspozycji w AWS:**
+
+<!-- pause -->
+
+### 1. Amazon Bedrock Guardrails
+
+- Filtrowanie treści na wejściu i wyjściu modelu — blokowanie prompt injection, toxic content, PII
+- Konfigurowane per-aplikacja: denied topics, word filters, sensitive information filters
+- **Odpowiednik Azure:** Azure AI Content Safety (analogiczna funkcja, inna implementacja)
+
+<!-- pause -->
+
+### 2. IAM Policies + Bedrock Access Control
+
+- Principle of least privilege dla każdego agenta i aplikacji AI
+- Ograniczenie dostępu do konkretnych modeli, akcji (`InvokeModel`, `CreateModelCustomizationJob`)
+- Resource-based policies — kontrola kto może wywoływać jaki model w jakim kontekście
+- **Odpowiednik Azure:** Microsoft Entra ID + role-based access control (RBAC) w Azure AI
+
+<!-- pause -->
+
+### 3. AWS CloudTrail + Bedrock Logging
+
+- Pełen audit trail: kto, kiedy, jaki model, jakie dane (input/output logging opcjonalny)
+- Integracja z CloudWatch Alarms — alerty na anomalie (np. nagły wzrost wywołań, nieautoryzowany model)
+- Retencja logów konfigurowalna — compliance z RODO i politykami wewnętrznymi
+- **Odpowiednik Azure:** Azure Monitor + Diagnostic Settings w Azure OpenAI
+
+<!-- pause -->
+
+### 4. Amazon Macie
+
+- Automatyczne odkrywanie i klasyfikacja danych wrażliwych (PII, dane finansowe) w S3
+- Monitoring: czy dane, które trafiają do AI pipeline, nie zawierają nieautoryzowanych informacji
+- Alerty gdy dane wrażliwe pojawiają się tam, gdzie nie powinny
+- **Odpowiednik Azure:** Microsoft Purview (data discovery + klasyfikacja + governance)
 
 <!-- end_slide -->
 
 ## Narzędzia bezpieczeństwa — Azure
 
+**Narzędzia, z których korzystacie dziś w ekosystemie Microsoft:**
+
+<!-- pause -->
+
+### 1. Azure AI Content Safety
+
+- Detekcja i blokowanie treści szkodliwych, prompt injection patterns, jailbreak attempts
+- Klasyfikacja severity (safe / low / medium / high) — konfigurowalne progi reakcji
+- Zintegrowane z Azure OpenAI Service — działa na Copilot infrastructure
+- **Odpowiednik AWS:** Amazon Bedrock Guardrails (content filtering + topic denial)
+
+<!-- pause -->
+
+### 2. Microsoft Purview
+
+- Data discovery, klasyfikacja i governance — automatyczne tagowanie danych wrażliwych
+- Sensitivity Labels na dokumentach — Copilot respektuje etykiety (np. nie summaryzuje "Confidential")
+- Data Loss Prevention (DLP) — blokuje udostępnianie sklasyfikowanych danych do niezatwierdzonych AI tools
+- **Odpowiednik AWS:** Amazon Macie (discovery) + AWS Lake Formation (governance)
+
+<!-- pause -->
+
+### 3. Microsoft Defender for Cloud
+
+- Posture management dla AI workloads — wykrywanie misconfiguration, nadmiernych uprawnień
+- Threat detection — alerty na podejrzane wzorce użycia AI (eksfiltracja, anomalous access)
+- Rekomendacje hardening dla Azure OpenAI deployments
+- **Odpowiednik AWS:** AWS Security Hub + Amazon GuardDuty (threat detection + posture)
+
+<!-- pause -->
+
+### 4. Azure Information Protection (AIP)
+
+- Szyfrowanie i kontrola dostępu na poziomie dokumentu — niezależnie od lokalizacji pliku
+- Integracja z M365: Copilot widzi tylko dokumenty, do których użytkownik ma uprawnienia
+- Tracking & revoke — możliwość cofnięcia dostępu do udostępnionego pliku
+- **Odpowiednik AWS:** brak bezpośredniego odpowiednika; częściowo: S3 Object Lock + KMS + Lake Formation (platform-specific)
+
 <!-- end_slide -->
 
 ## Zasady vendor-neutral
+
+### 🌐 Bezpieczeństwo AI niezależne od platformy
+
+Te zasady działają **bez względu na to, czy używasz AWS, Azure, GCP czy on-prem**:
+
+<!-- pause -->
+
+- 🔐 **Principle of least privilege dla agentów AI**
+  - Domyślnie: read-only. Uprawnienia write/execute — tylko po jawnej aprobacie
+  - Agent AI nie potrzebuje dostępu do całego systemu, żeby Ci pomóc
+
+<!-- pause -->
+
+- 📊 **Data classification PRZED użyciem AI**
+  - Zanim wkleisz — zdecyduj: publiczne / wewnętrzne / poufne / regulowane
+  - Dane poufne i regulowane → **nigdy** do narzędzi bez enterprise-grade izolacji
+
+<!-- pause -->
+
+- 👤 **Human-in-the-loop dla decyzji krytycznych**
+  - AI rekomenduje, człowiek zatwierdza — szczególnie w finansach, prawie, HR
+  - Żaden model nie powinien autonomicznie podejmować decyzji o dużym wpływie
+
+<!-- pause -->
+
+- 📝 **Audit logging wszystkich interakcji z AI**
+  - Kto, kiedy, jakie dane, jaki output — loguj i monitoruj
+  - Niezbędne do forensics, compliance i ciągłego doskonalenia
+
+<!-- pause -->
+
+- 🎯 **Regular red-teaming i testy penetracyjne**
+  - Testuj swoje wdrożenia AI zanim zrobią to atakujący
+  - PromptFoo, Garak, manualne testy — włącz do cyklu bezpieczeństwa
+
+<!-- 
+Notatka: Podkreśl, że te zasady to fundament — niezależnie od dostawcy chmury.
+Nawet jeśli firma zmieni platformę, te zasady zostają aktualne.
+Czas: ~90 sekund.
+-->
 
 <!-- end_slide -->
 
 ## Polityki jako enablery innowacji
 
+### 🚀 Polityka bezpieczeństwa ≠ blokada kreatywności
+
+<!-- pause -->
+
+> **„Dobra polityka bezpieczeństwa jest jak pas w samochodzie — nie ogranicza prędkości, ale pozwala jechać pewniej."**
+
+<!-- pause -->
+
+### Jak polityki PRZYSPIESZAJĄ innowację:
+
+- 📋 **Rejestr zatwierdzonych narzędzi AI**
+  - → Nie tracisz czasu na szukanie i pytanie „czy mogę?" — wiesz od razu
+- 🔒 **Jasna klasyfikacja danych**
+  - → Eksperimentujesz swobodnie z danymi publicznymi, bez stresu o compliance
+- ⚡ **Fast-track approval** dla nowych narzędzi AI
+  - → Zamiast Shadow AI, zgłoś narzędzie — PBI pomoże je ocenić szybko
+
+<!-- pause -->
+
+### Co się dzieje BEZ polityk:
+
+- 😰 Pracownik nie wie, czy wolno → **nie korzysta z AI wcale** (hamulec innowacji)
+- 🫣 Pracownik korzysta ukradkiem → **Shadow AI** (ryzyko bez kontroli)
+- 🤷 Incydent bez audit logów → **długi postmortem, brak lekcji**
+
+<!-- pause -->
+
+### Co się dzieje Z politykami:
+
+- ✅ Jasne reguły gry → pracownik **pewnie** używa AI w codziennej pracy
+- ✅ Szybka ścieżka zatwierdzenia → innowacja **w ramach bezpieczeństwa**
+- ✅ Audit trail → incydent rozwiązany w godziny, nie tygodnie
+
 <!-- end_slide -->
 
 ## Kiedy kontaktować PBI
+
+### 📞 PBI = Wasz partner, nie policja
+
+<!-- pause -->
+
+> **PBI jest po to, żeby Wam POMÓC korzystać z AI bezpiecznie — nie żeby karać za pytania.**
+
+<!-- pause -->
+
+### 🚨 Sytuacje, w których KONIECZNIE skontaktuj się z PBI:
+
+<!-- pause -->
+
+- **1. Przypadkowo udostępniłeś poufne dane narzędziu AI**
+  - Np. wkleiłeś dane klienta do ChatGPT, Perplexity, albo innego niezatwierdzonego toola
+  - → PBI pomoże ocenić ryzyko i podjąć kroki zaradcze (nie będzie kary za zgłoszenie!)
+
+<!-- pause -->
+
+- **2. Chcesz użyć nowego narzędzia AI, którego nie ma na liście zatwierdzonych**
+  - Np. kolega polecił Ci narzędzie do transkrypcji spotkań — a nie wiesz, gdzie idą dane
+  - → PBI przeprowadzi szybką ocenę i albo zatwierdzi, albo zaproponuje alternatywę
+
+<!-- pause -->
+
+- **3. Widzisz podejrzany output AI lub próbę social engineeringu z użyciem AI**
+  - Np. otrzymałeś wiadomość głosową od „szefa" z nietypową prośbą
+  - → PBI koordynuje reakcję na incydenty i może potwierdzić podejrzenia
+
+<!-- pause -->
+
+- **4. Nie jesteś pewien, czy Twój use case wymaga dodatkowych zabezpieczeń**
+  - Np. chcesz zintegrować AI z procesem obsługi klienta — jakie guardrails zastosować?
+  - → PBI doradzi architekturę bezpieczeństwa od samego początku
+
+<!-- pause -->
+
+### ✉️ Jak się skontaktować:
+
+- 📧 Mail: **pbi@best.com.pl**
+- 💬 Teams: kanał **#bezpieczenstwo-ai**
+- 🗓️ Konsultacje: umów spotkanie — bez formalizmu, bez oceniania
 
 <!-- end_slide -->
 
