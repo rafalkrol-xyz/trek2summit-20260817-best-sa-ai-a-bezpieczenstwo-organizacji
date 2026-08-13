@@ -54,7 +54,7 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 **1. Krajobraz zagrożeń**
 * Skala problemu i kontekst BEST S.A.
 
-**2. Osiem wektorów aktaku**
+**2. Osiem kategorii zagrożeń**
 * Wycieki danych
 * Shadow AI
 * phishing i vishing
