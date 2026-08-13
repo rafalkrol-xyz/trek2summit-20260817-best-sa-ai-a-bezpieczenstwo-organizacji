@@ -47,25 +47,40 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 
 <!-- end_slide -->
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 ## Agenda
 
 **1. Krajobraz zagrożeń**
-Skala problemu i kontekst BEST S.A.
+* Skala problemu i kontekst BEST S.A.
 
-**2. Osiem wektorów**
-Wycieki danych · Shadow AI · phishing i vishing · deepfake · automatyzacja ataków · autonomia agentów · prompt injection · halucynacje
+**2. Osiem wektorów aktaku**
+* Wycieki danych
+* Shadow AI
+* phishing i vishing
+* deepfake
+* automatyzacja ataków
+* autonomia agentów
+* prompt injection
+* halucynacje
 
 **3. Od zagrożeń do rozwiązań**
-Best practices · framework oceny ryzyka · narzędzia AWS i Azure · regulacje
+* best practices
+* framework oceny ryzyka
+* narzędzia AWS i Azure
+* regulacje
 
 **4. Zamknięcie**
-5 takeaways + kontakt do PBI
+* TL;DR
+* Q&A
+* materiały dodatkowe
 
-→ _Zaczynamy od krajobrazu zagrożeń — co tak naprawdę zmieniło się w ostatnich dwóch latach?_
+<!-- column: 1 -->
+![image:width:100%](./images/DEVO-sunrise.jpeg)
 
 <!-- end_slide -->
 
-## Mapa zagrożeń AI
+## Krajobraz zagrożeń AI
 
 **Osiem kategorii**, które zdefiniowały krajobraz 2024–2026:
 
