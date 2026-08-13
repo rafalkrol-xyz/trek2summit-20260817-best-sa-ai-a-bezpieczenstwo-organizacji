@@ -971,8 +971,6 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Kiedy kontaktować PBI
 
-### 📞 PBI = partner, nie policja
-
 <!-- pause -->
 
 > **PBI jest po to, żeby pomóc Wam korzystać z AI bezpiecznie — nie żeby karać za pytania.**
@@ -980,30 +978,27 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 <!-- pause -->
 
-**🚨 Zgłoś się koniecznie, gdy:**
-
-- **Udostępniłeś poufne dane narzędziu AI**
-  → PBI oceni ryzyko i pomoże; za zgłoszenie nie ma kary
+* **Chcesz zwiększyć swoją efektywność dzięki AI?**
 
 <!-- pause -->
 
-- **Chcesz użyć narzędzia, którego nie ma na liście**
-  → szybka ocena albo propozycja alternatywy
+* **Widzisz podejrzany output AI lub próbę socjotechniki**
 
 <!-- pause -->
 
-- **Widzisz podejrzany output AI lub próbę socjotechniki**
-  → np. wiadomość głosowa od „szefa" z nietypową prośbą
+* **Nie wiesz, jakich zabezpieczeń wymaga Twój use case**
 
 <!-- pause -->
 
-- **Nie wiesz, jakich zabezpieczeń wymaga Twój use case**
-  → PBI doradzi architekturę od początku, nie po incydencie
+* **Udostępniłeś poufne dane narzędziu AI**
 
 <!-- pause -->
 
-**✉️ Kontakt:**
-📧 **bezpieczenstwo@best.com.pl** · 💬 Teams **#bezpieczenstwo-ai** · 🗓️ konsultacje bez formalizmu
+* **Chcesz użyć narzędzia spoza listy zatwierdzonych**
+
+<!-- pause -->
+
+## **Kontakt:** **bezpieczenstwo@best.com.pl**
 
 <!-- end_slide -->
 
