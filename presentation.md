@@ -51,7 +51,7 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 <!-- column: 0 -->
 ## Agenda
 
-**1. Krajobraz zagrożeń**
+**1. Krajobraz zagrożeń AI**
 * Skala problemu i kontekst BEST S.A.
 
 **2. Osiem kategorii zagrożeń**
@@ -80,22 +80,29 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 
 <!-- end_slide -->
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 ## Krajobraz zagrożeń AI
 
-**Osiem kategorii**, które zdefiniowały krajobraz 2024–2026:
+**Osiem kategorii zagrożeń AI**, które zdefiniowały krajobraz ostatnich paru lat:
 
 1. **Wycieki danych** przez chatboty
 2. **Shadow AI** — narzędzia poza kontrolą organizacji
 3. **Phishing i vishing** — perfekcyjny język, klonowany głos
 4. **Deepfake** — obraz i dźwięk jako wektor ataku
-5. **Automatyzacja ataków** — AI jako force multiplier
+5. **Automatyzacja ataków** — AI jako _force multiplier_
 6. **Autonomia agentów** — nadmierne uprawnienia
 7. **Prompt injection** — manipulacja przez dane wejściowe
 8. **Halucynacje** — fałsz podany z pewnością
 
-Cztery warstwy, w których te wektory się układają: **model · dane · infrastruktura · łańcuch dostaw**.
+Cztery warstwy, w których te kategorie się układają:
+* model
+* dane
+* infrastruktura
+* łańcuch dostaw
 
-Wspólny mianownik: każda kategoria dotyczy narzędzi, których używacie **dziś**.
+<!-- column: 1 -->
+![image:width:100%](./images/DEVO-whirlwind.jpeg)
 
 <!-- end_slide -->
 
