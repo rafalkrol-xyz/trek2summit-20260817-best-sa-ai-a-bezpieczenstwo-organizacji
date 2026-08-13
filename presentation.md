@@ -2,6 +2,8 @@
 title: "AI a bezpieczeństwo organizacji"
 sub_title: "Wewnętrzna konferencja BEST S.A."
 author: "Rafał Król — Head of AWS Technologies, Trek2Summit"
+theme:
+  name: catppuccin-latte
 ---
 
 ## 2026: AI jako wektor ataku
