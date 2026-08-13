@@ -102,7 +102,7 @@ Cztery warstwy, w których te kategorie się układają:
 * łańcuch dostaw
 
 <!-- column: 1 -->
-![image:width:100%](./images/DEVO-whirlwind.jpeg)
+![image:width:100%](./images/explaining-cyber-risk-to-board-meme.jpeg)
 
 <!-- end_slide -->
 
@@ -112,7 +112,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 - Wydatki firm na GenAI: **1,7 → 11,5 → 37 mld USD** (2023 → 2024 → 2025, Menlo Ventures)
 - **96%** organizacji planuje szerzej używać agentów AI — a bezpieczeństwo danych wskazuje jako główną barierę (Cloudera 2025)
-- **~30%** projektów GenAI porzuconych po fazie PoC z powodu niewystarczających kontroli ryzyka (Gartner)
+- **~30%** projektów GenAI porzuconych po fazie PoC z powodu niewystarczających kontroli ryzyka (Gartner 2024)
 
 <!-- pause -->
 
@@ -122,7 +122,7 @@ Cztery warstwy, w których te kategorie się układają:
 - **71%** organizacji zgłasza incydenty związane z GenAI (IBM X-Force 2025)
 - Od PoC exploita do ataku na skalę: **z tygodni na godziny**
 
-To nie jest przyszłość — to **teraźniejszość**.
+![image:width:100%](./images/DEVO-whirlwind.jpeg)
 
 <!-- end_slide -->
 
