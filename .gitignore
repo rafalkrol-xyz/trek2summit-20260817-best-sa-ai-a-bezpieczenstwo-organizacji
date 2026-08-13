@@ -8,3 +8,6 @@
 .copilot
 .continue
 .codeium
+
+# macOS specific
+.DS_Store
