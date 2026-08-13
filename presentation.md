@@ -1003,41 +1003,36 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 <!-- pause -->
 
 **✉️ Kontakt:**
-📧 **pbi@best.com.pl** · 💬 Teams **#bezpieczenstwo-ai** · 🗓️ konsultacje bez formalizmu
+📧 **bezpieczenstwo@best.com.pl** · 💬 Teams **#bezpieczenstwo-ai** · 🗓️ konsultacje bez formalizmu
 
 <!-- end_slide -->
 
-## Podsumowanie — 5 takeaways
+## TL;DR
 
 <!-- pause -->
 
-**1. Klasyfikuj dane, zanim trafią do AI**
-Enterprise chroni Twoje dane, consumer nie
+### **1. Klasyfikuj dane, zanim trafią do AI**
+* Narzędzia Enterprise chronią Twoje dane, te konsumenckie już niekoniecznie
 
 <!-- pause -->
 
-**2. Używaj wyłącznie zatwierdzonych narzędzi**
-Shadow AI = ryzyko bez audit trail
+### **2. Używaj wyłącznie zatwierdzonych narzędzi**
+* Shadow AI = ryzyko bez ścieżki audytu
 
 <!-- pause -->
 
-**3. Weryfikuj nietypowe prośby drugim kanałem**
-Pilne + finansowe + nietypowe = callback na znany numer
+### **3. Weryfikuj nietypowe prośby drugim kanałem**
+* Pilne + finansowe + nietypowe -> telefon na znany numer
 
 <!-- pause -->
 
-**4. Agenci AI domyślnie read-only**
-Jedno „Trust always" = pełny dostęp do systemu
+### **4. Agenci AI domyślnie read-only i/lub w piaskownicy**
+* Jedno „Trust always” = pełny dostęp do systemun na wieki wieków
 
 <!-- pause -->
 
-**5. PBI to partner — pytaj przed, nie po incydencie**
-Szybka ocena narzędzia > tygodnie incident response
-
-<!-- pause -->
-
-**Jedno działanie na poniedziałek:**
-sprawdź uprawnienia Copilota i swoich agentów AI — czy potwierdzenia przed akcją są włączone?
+### **5. PBI to partner — kto pyta, nie błądzi**
+* Szybka ocena narzędzia zamiast potencjalnych, nieprzyjemnych konsekwencji
 
 <!-- end_slide -->
 
@@ -1045,8 +1040,9 @@ sprawdź uprawnienia Copilota i swoich agentów AI — czy potwierdzenia przed a
 
 <!-- pause -->
 
-> **„Nie musisz być ekspertem od bezpieczeństwa AI.**
-> **Musisz wiedzieć, kiedy zapytać kogoś, kto jest."**
+> **„Nie trzeba znać się na wszystkim.**
+> **Ale, trzeba wiedzieć kogo zapytać”.**
+> Nestor Aragon, Motorola Solutions
 
 <!-- pause -->
 
@@ -1054,18 +1050,12 @@ sprawdź uprawnienia Copilota i swoich agentów AI — czy potwierdzenia przed a
 
 - ✅ Przejrzyj listę zatwierdzonych narzędzi
 - ✅ Sprawdź uprawnienia w Copilocie i narzędziach deweloperskich
-- ✅ Ustal z zespołem passphrase do weryfikacji nietypowych próśb
+- ✅ Ustal z zespołem _hasło masło_ do weryfikacji nietypowych próśb
 - ✅ Zapisz kontakt do PBI — w trakcie incydentu nie chcesz go szukać
 
 <!-- pause -->
 
-📧 **pbi@best.com.pl** · 💬 **#bezpieczenstwo-ai**
-
-<!-- pause -->
-
-> **PBI nie karze za pytania. PBI karze brak pytań.**
-
-### Korzystajcie z AI — świadomie, z głową i z nami. 🛡️
+📧 **bezpieczenstwo@best.com.pl**
 
 <!-- end_slide -->
 
