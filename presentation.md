@@ -1190,3 +1190,6 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - Hugging Face — technical timeline: https://huggingface.co/blog/agent-intrusion-technical-timeline
 - LiteLLM — Trend Micro analysis: https://www.trendmicro.com/en_gb/research/26/c/inside-litellm-supply-chain-compromise.html
 - Zenity Labs — summary of Black Hat research: https://labs.zenity.io/p/summary-zenity-research-published-blackhat-2024
+
+
+- Samsung — od banicji do adopcji: https://www.cio.com/article/4184660/samsung-which-previously-blocked-chatgpt-is-now-fully-adopting-three-generative-ai-models-and-accelerating-its-ax-initiative.html
