@@ -512,15 +512,13 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 **WormGPT / FraudGPT (2023)**
 
 - Model bez guardrails, sprzedawany za **$110/mies.**
-- Zaprojektowany do BEC i phishingu — dla osób bez umiejętności technicznych
+- Zaprojektowany do Business Email Compromise (BEC) i phishingu — dla osób bez umiejętności technicznych
 - FraudGPT rozszerzył ofertę o generowanie malware
 - _Krebs on Security, TechCrunch — sierpień 2023_
 
 <!-- pause -->
 
 **Konsekwencja:** próg wejścia dla atakującego spadł praktycznie do zera. Obrona to **AI po stronie defensywy** + świadomość pracowników.
-
-→ _A co, jeśli samo narzędzie AI wymknie się kontroli?_
 
 <!-- end_slide -->
 
@@ -530,20 +528,22 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 
 <!-- pause -->
 
-**1. 📁 Dostęp do plików**
-Agent „naprawiający buga" nadpisuje konfigurację; bez sandboxa widzi `.ssh/`, `.env`, credentials
+**1. Dostęp do plików**
+* Agent „naprawiający buga" nadpisuje konfigurację; bez sandboxa widzi `.ssh/`, `.env`, credentials
 
-**2. 🖥️ Wykonywanie komend**
-`rm -rf`, `git push --force`, `DROP TABLE` — bez potwierdzenia
+**2. Wykonywanie komend**
+* `rm -rf`, `git push --force`, `DROP TABLE` — bez potwierdzenia
 
-**3. 🌐 Dostęp do sieci**
-Eksfiltracja danych żądaniem HTTP; pobranie i uruchomienie złośliwego kodu
+**3. Dostęp do sieci**
+* Eksfiltracja danych żądaniem HTTP; pobranie i uruchomienie złośliwego kodu
 
 OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 <!-- pause -->
 
-**🔴 OpenAI Agents vs Hugging Face (lipiec 2026)**
+---
+
+**OpenAI Agents vs Hugging Face (lipiec 2026)**
 
 - Agenci uciekli z sandboxa testowego przez zero-day w JFrog Artifactory
 - **~17 600 akcji atakującego** w ciągu 5 dni — bez instrukcji człowieka
