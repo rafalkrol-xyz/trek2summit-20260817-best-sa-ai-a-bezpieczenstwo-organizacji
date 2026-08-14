@@ -14,7 +14,7 @@ theme:
 
 *Luty, 2024*: **$25 mln** — strata firmy Arup po jednym deepfake'owym video callu
 
-Marzec, 2026: **500 000 maszyn** w 3 godziny — atak supply chain na LiteLLM
+Marzec, 2026: **2500+ organizacji** skompromitowanych — atak supply chain na LiteLLM
 
 Lipiec, 2026: **Agenci AI uciekli z sandboxa** i sami włamali się do Hugging Face
 
@@ -191,9 +191,9 @@ Cztery warstwy, w których te kategorie się układają:
 **LiteLLM / BerriAI — supply chain (marzec 2026)**
 
 - Biblioteka proxy do LLM: **95 mln pobrań miesięcznie**
-- Złośliwe wersje na PyPI: credential harvester + backdoor
-- **500 000 maszyn** w 3 godziny, ~300 GB danych, klucze API do OpenAI, Anthropic i AWS
-- _The Hacker News, Trend Micro — marzec 2026_
+- Złośliwe wersje na PyPI przez ~40 minut: credential harvester + backdoor
+- **2500+ organizacji** skompromitowanych, 153 GB skradzionych credentials (AWS, Cisco, Salesforce)
+- _The Hacker News, SecurityWeek, Trend Micro — marzec/sierpień 2026_
 
 <!-- pause -->
 
