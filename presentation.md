@@ -754,7 +754,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 ## Zasady bezpiecznego AI (1/2)
 
-### 👤 Zachowania indywidualne
+### Zachowania indywidualne
 
 <!-- pause -->
 
@@ -771,43 +771,32 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 - ❌ **Nie kopiuj kodu produkcyjnego** do publicznych modeli
 - ❌ **Nie ufaj AI w kwestiach prawnych** bez weryfikacji źródłowej
 
-<!-- pause -->
-
-🔑 **Zasada kciuka:** jeśli nie wysłałbyś tego mailem do nieznajomego — nie wklejaj do AI.
-
 <!-- end_slide -->
 
 ## Zasady bezpiecznego AI (2/2)
 
-### 🏢 Polityki organizacyjne
+### Polityki organizacyjne
 
 <!-- pause -->
 
-- 📋 **Rejestr zatwierdzonych narzędzi AI** (PBI)
-  → wiesz od razu, z czego możesz korzystać
-- 🔒 **Klasyfikacja danych dla AI** — publiczne / wewnętrzne / poufne
-  → koniec z niepewnością „czy mi wolno?"
-- 🔍 **Audit logging interakcji z AI**
-  → szybka reakcja na incydent, ochrona firmy i pracownika
-- 👁️ **Human-in-the-loop dla decyzji krytycznych**
-  → innowacja bez ryzyka autonomicznych błędów
+- **Rejestr zatwierdzonych narzędzi AI** (PBI)
+- **Klasyfikacja danych dla AI** — publiczne / wewnętrzne / poufne
+- **Audit logging interakcji z AI**
+- **Human-in-the-loop dla decyzji krytycznych**
 
 <!-- pause -->
 
-- 🔄 **Regularny red-teaming** — testuj, zanim zrobi to atakujący
-- ⚙️ **Least privilege dla agentów** — domyślnie read-only
-- 📚 **Szkolenia i awareness** — takie jak dzisiejsze spotkanie
-
-<!-- pause -->
-
-> **Polityka bezpieczeństwa AI ≠ zakaz innowacji.**
-> To GPS dla kreatywności — pokazuje bezpieczną trasę, nie blokuje celu.
+- **Regularny red-teaming** — testuj, zanim zrobi to atakujący
+- **Least privilege dla agentów** — domyślnie read-only
+- **Szkolenia i awareness** — takie jak dzisiejsze spotkanie
 
 <!-- end_slide -->
 
-## Framework oceny ryzyka narzędzi AI
+## Ściągawka oceny ryzyka narzędzi AI
 
-### ✅ Zanim zaczniesz używać nowego narzędzia
+### Zanim zaczniesz używać nowego narzędzia
+
+_zapytaj PBI, zanim zaczniesz_
 
 <!-- pause -->
 
@@ -834,8 +823,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 **4. Czy istnieje zatwierdzona alternatywa?**
 
-- Copilot, Azure OpenAI, AWS Bedrock → **tak, używaj ich**
-- Brak pewności → **zapytaj PBI, zanim zaczniesz**
+- Copilot, Azure OpenAI, AWS Bedrock, Amazon Quick, Kiro
 
 <!-- end_slide -->
 
@@ -843,21 +831,23 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 **AWS odpowiada za bezpieczeństwo _chmury_**
 
-- Infrastruktura, hosting modeli bazowych, izolacja najemców
+- Infrastruktura, hosting modeli bazowych, izolacja użytkowników
 - Wejścia i wyjścia z Bedrock **nie trenują** modeli AWS ani modeli partnerów i nie są udostępniane innym klientom
 
 <!-- pause -->
 
-**Wy odpowiadacie za bezpieczeństwo _w chmurze_**
+**Wy (lub Partner) odpowiadacie za bezpieczeństwo _w chmurze_**
 
 - Prompty i dane wejściowe, konfiguracja Guardrails, retencja logów
-- Uprawnienia IAM aplikacji i agentów, izolacja sieciowa, szyfrowanie KMS
+- Uprawnienia IAM dla użytkowników, aplikacji i agentów; izolacja sieciowa, szyfrowanie kluczami KMS
 - Źródła w bazach wiedzy RAG i walidacja wyjść narzędzi
 
 <!-- pause -->
 
-**Granica przesuwa się z modelem konsumpcji:**
-Bedrock (najwięcej po stronie AWS) → SageMaker → model self-hosted na EC2 (wszystko po Waszej stronie).
+**Granica przesuwa się wraz z modelem konsumpcji:**
+* Bedrock (najwięcej po stronie AWS)
+  * SageMaker (~50/50)
+    * model self-hosted (np. Kimi K3) na EC2/EKS (wszystko po Waszej stronie)
 
 **Analogicznie w Azure:** Microsoft odpowiada za platformę Azure OpenAI, Wy za konfigurację, etykiety Purview i polityki DLP.
 
@@ -1197,3 +1187,6 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - PoCGen — LLM generuje exploity dla 77% podatności: https://arxiv.org/abs/2506.04962
 - FireCompass 2026 — AI pentest w minutach vs 40h manualnie: https://firecompass.com/agentic-ai-pentesting-vs-human-pentesting-comparison-in-2026/
 - Aikido — autonomous vs manual pentesting benchmark: https://www.aikido.dev/reports/autonomous-vs-manual-pentesting-benchmark
+
+
+- Deloitte — halucynacje AI w raporcie za $290K dla rządu Australii (sfabrykowane cytaty i źródła): https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/
