@@ -251,23 +251,25 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 <!-- pause -->
 
 1. **Wyciek danych do niekontrolowanych modeli**
-   Brak DLP, brak logów, brak możliwości audytu
+* Brak Data Loss Prevention (DLP), brak logów, brak możliwości audytu
 
 2. **Naruszenie regulacji** (RODO, KNF, tajemnica bankowa)
-   Brak umowy powierzenia i podstawy transferu poza EOG
+* Brak umowy powierzenia i podstawy transferu poza EOG
 
 3. **Decyzje na niezweryfikowanych wynikach**
-   Halucynacja w analizie → błędna decyzja windykacyjna
+* Halucynacja w analizie → błędna decyzja windykacyjna
 
 <!-- pause -->
 
 **Scenariusze w firmie finansowej:**
 
-- 📊 Analityk wkleja bazę dłużników do ChatGPT „dla szybszego raportu"
-- 📧 Windykacja generuje pisma z danymi osobowymi w darmowym narzędziu
-- 📈 Manager pokazuje zarządowi prognozy z niezatwierdzonego AI
+- Analityk wkleja bazę dłużników do ChatGPT „dla szybszego raportu"
+- Windykacja generuje pisma z danymi osobowymi w darmowym narzędziu
+- Manager pokazuje zarządowi prognozy z niezatwierdzonego AI
 
-> Organizacja, która nie wie, jakie modele przetwarzają jej dane, nie może ich chronić.
+> Organizacja, która nie wie, jak jej dane są przetwarzane, nie może ich chronić.
+
+![shadow ai](./images/shadow-ai-meme.jpeg)
 
 <!-- end_slide -->
 
