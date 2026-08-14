@@ -1126,3 +1126,50 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 > _"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards — and even then I have my doubts."_
 > — Gene Spafford, profesor informatyki na Uniwersytecie Purdue
+
+
+
+<!-- end_slide -->
+
+## Źródła i bibliografia
+
+### Incydenty
+
+| # | Twierdzenie | Źródło | Data | Link |
+|---|---|---|---|---|
+| 1 | Arup — $25 mln straty po deepfake video callu | CNN | maj 2024 | https://www.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk/index.html |
+| 2 | Samsung — 3 wycieki danych do ChatGPT w 20 dni | TechRadar | kwiecień 2023 | https://www.techradar.com/news/samsung-workers-leaked-company-secrets-by-using-chatgpt |
+| 3 | LiteLLM — supply chain attack, 2500+ organizacji | The Hacker News | marzec 2026 | https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html |
+| 4 | Agenci OpenAI uciekli z sandboxa → atak na Hugging Face | Ars Technica | lipiec 2026 | https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/ |
+| 5 | CEO voice clone fraud — €220 000 | The Wall Street Journal / Euler Hermes | wrzesień 2019 | https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/ |
+| 6 | WormGPT — $110/mies. na HackForums | CSO Online | 2023 | https://www.csoonline.com/article/4008912/wormgpt-returns-new-malicious-ai-variants-built-on-grok-and-mixtral-uncovered.html |
+| 7 | FraudGPT — $200/mies. na dark webie | Dark Reading | lipiec 2023 | https://www.darkreading.com/threat-intelligence/fraudgpt-malicious-chatbot-for-sale-dark-web |
+| 8 | Microsoft Copilot prompt injection — Zenity Labs / Black Hat USA | TechTarget | sierpień 2024 | https://www.techtarget.com/searchsecurity/news/366602358/Zenity-CTO-on-dangers-of-Microsoft-Copilot-prompt-injections |
+| 9 | Air Canada — chatbot podał fałszywą informację, firma odpowiada | CBC News | luty 2024 | https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416 |
+| 10 | Mata v. Avianca — 6 sfabrykowanych orzeczeń, sankcja $5 000 | American Bar Association | czerwiec 2023 | https://www.americanbar.org/groups/litigation/resources/litigation-news/2023/use-chatgpt-research-bogus-cases-sanctions/ |
+
+### Statystyki i raporty
+
+| # | Twierdzenie | Źródło | Data | Link |
+|---|---|---|---|---|
+| 11 | Wydatki enterprise na GenAI: $2,3B → $13,8B → $37B | Menlo Ventures | grudzień 2025 | https://www.globenewswire.com/de/news-release/2025/12/09/3202258/0/en/Menlo-Ventures-2025-State-of-Generative-AI-Report-Enterprise-Investment-Hit-37B-in-2025-Tripling-in-One-Year.html |
+| 12 | 96% organizacji planuje rozszerzać użycie agentów AI | Cloudera | kwiecień 2025 | https://www.cloudera.com/about/news-and-blogs/press-releases/2025-04-16-96-percent-of-enterprises-are-expanding-use-of-ai-agents-according-to-latest-data-from-cloudera.html |
+| 13 | ~30% projektów GenAI porzuconych po PoC | Gartner | lipiec 2024 | https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025 |
+| 14 | 4151% wzrost phishing maili od ChatGPT launch | SlashNext Mid-Year 2024 | maj 2024 | https://www.prnewswire.com/news-releases/slashnext-mid-year-state-of-phishing-report-shows-341-increase-in-bec-and-advanced-phishing-attacks-302152148.html |
+| 15 | 96% uważa, że GenAI uprawdopodabnia breach w 3 lata | IBM X-Force | 2025 | https://www.ibm.com/think/x-force/are-you-prepared-for-genai-disruption |
+
+### Regulacje
+
+| # | Twierdzenie | Źródło | Link |
+|---|---|---|---|
+| 16 | EU AI Act — kary do 35 mln EUR / 7% obrotu | EU AI Act Art. 99 | https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99 |
+| 17 | EU AI Act — timeline: prohibited 02.2025, GPAI 08.2025, high-risk 08.2026 | Legiscope | https://www.legiscope.com/blog/eu-ai-act-timeline-deadlines.html |
+| 18 | NIS2 — 24h early warning, 72h notification, 1 miesiąc raport | NIS2 Art. 23 | https://bastion.tech/learn/nis2/incident-reporting/ |
+| 19 | DORA — obowiązuje od 17.01.2025 | ESMA | https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora |
+
+### Dodatkowe źródła
+
+- Hugging Face — oficjalne disclosure: https://huggingface.co/blog/security-incident-july-2026
+- Hugging Face — technical timeline: https://huggingface.co/blog/agent-intrusion-technical-timeline
+- LiteLLM — Trend Micro analysis: https://www.trendmicro.com/en_gb/research/26/c/inside-litellm-supply-chain-compromise.html
+- Zenity Labs — summary of Black Hat research: https://labs.zenity.io/p/summary-zenity-research-published-blackhat-2024
