@@ -963,6 +963,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 **EU AI Act** — klasyfikacja ryzyka i dokumentacja
 
 - Praktyki zakazane od 02.2025, obowiązki dla modeli ogólnego przeznaczenia od 08.2025, systemy wysokiego ryzyka od 08.2026
+- **Art. 50 — obowiązki transparencji** (od 08.2025): użytkownik musi wiedzieć, że rozmawia z AI; treści AI-generated wymagają oznaczenia i maszynowego znakowania (deepfake, tekst, obraz)
 - Kary: do **35 mln EUR / 7%** obrotu za praktyki zakazane, 15 mln EUR / 3% za pozostałe naruszenia
 
 <!-- pause -->
@@ -994,25 +995,25 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 **Jak polityki przyspieszają innowację:**
 
-- 📋 **Rejestr narzędzi** → nie tracisz czasu na pytanie „czy mogę?"
-- 🔒 **Jasna klasyfikacja danych** → eksperymentujesz swobodnie tam, gdzie wolno
-- ⚡ **Fast-track approval** → zamiast Shadow AI zgłaszasz narzędzie do oceny
+- **Rejestr narzędzi** → nie tracisz czasu na pytanie „czy mogę?"
+- **Jasna klasyfikacja danych** → eksperymentujesz swobodnie tam, gdzie wolno
+- **Fast-track approval** → zamiast Shadow AI zgłaszasz narzędzie do oceny
+
+---
 
 <!-- pause -->
 
 **Bez polityk:**
 
-- 😰 Nie wiem, czy wolno → **nie korzystam z AI wcale**
-- 🫣 Korzystam ukradkiem → **Shadow AI**
-- 🤷 Incydent bez logów → **długi postmortem, brak wniosków**
+- Nie wiem, czy wolno → **nie korzystam z AI wcale** lub korzystam ukradkiem (**Shadow AI**)
+- Incydent bez logów → **długi postmortem, brak wniosków, konsekwencje dyscyplinarne i finansowe**
 
 <!-- pause -->
 
 **Z politykami:**
 
-- ✅ Jasne reguły → pewne korzystanie z AI w codziennej pracy
-- ✅ Szybka ścieżka zatwierdzenia → innowacja w ramach bezpieczeństwa
-- ✅ Audit trail → incydent rozwiązany w godziny, nie w tygodnie
+- Jasne reguły → pewne korzystanie z AI w codziennej pracy oraz dostęp do lepszych narzędzi
+- Audit trail → incydent rozwiązany w godziny z możliwością ulepszeń na przyszłość
 
 <!-- end_slide -->
 
