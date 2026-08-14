@@ -118,7 +118,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 **Zagrożenia rosną w tym samym tempie:**
 
-- **4000%** wzrost AI-generowanych phishing maili od 2023 (SlashNext)
+- wzrost o ponad **4000%** maili phishingowych generowanych przy użyciu AI od powstania ChatGPT do połowy 2024 (SlashNext)
 - **71%** organizacji zgłasza incydenty związane z GenAI (IBM X-Force 2025)
 - Od PoC exploita do ataku na skalę: **z tygodni na godziny**
 
@@ -277,7 +277,8 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 **Jak omija governance:**
 
-- Narzędzia nie ma w rejestrze przetwarzania (ROPA) — DPO nie wie o przetwarzaniu
+- Narzędzia nie ma w rejestrze przetwarzania (Register of Processing Activities (ROPA))
+— Data Protection Officer (DPO) nie wie o przetwarzaniu
 - Copy-paste do przeglądarki wygląda dla DLP jak legalna operacja
 
 <!-- pause -->
@@ -287,7 +288,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 | Ryzyko | Skutek |
 |---|---|
 | Kara RODO (art. 83) | do **20 mln EUR** lub 4% obrotu |
-| Sankcje KNF | kary administracyjne, ryzyko licencji |
+| Sankcje KNF | kary administracyjne, ryzyko licencyjne |
 | Data breach | utrata zaufania klientów, pozwy |
 
 <!-- pause -->
@@ -298,15 +299,14 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 - ⚠️ Odpowiedzialność osobista za wyciek danych osobowych
 - ⚠️ Utrata uprawnień zawodowych w sektorze regulowanym
 
-**Wniosek:** Shadow AI to problem **procesowy i kulturowy**, nie technologiczny. Lekarstwo: zatwierdzone narzędzia + edukacja + bezpieczne alternatywy.
-
-→ _Zobaczmy, jak AI wzmacnia klasyczne wektory — zaczynając od phishingu._
+**Wniosek:** Shadow AI to problem **procesowy i kulturowy**, nie technologiczny.
+  * **Lekarstwo**: zatwierdzone narzędzia + edukacja + bezpieczne alternatywy.
 
 <!-- end_slide -->
 
 ## AI Phishing — ewolucja ataków
 
-**4000%** wzrost AI-generowanych phishing maili od 2023 (SlashNext)
+Od powstania ChatGPT do połowy 2024 wzrost o ponad **4000%** maili phishing generowanych przy pomocy AI (SlashNext)
 
 AI zmienia phishing w **trzech wymiarach**:
 
