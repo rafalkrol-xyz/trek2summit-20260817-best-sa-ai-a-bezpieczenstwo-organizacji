@@ -110,7 +110,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 **Adopcja wyprzedza kontrolę:**
 
-- Wydatki firm na GenAI: **1,7 → 11,5 → 37 mld USD** (2023 → 2024 → 2025, Menlo Ventures)
+- Wydatki firm na GenAI: **2,3 → 13,8 → 37 mld USD** (2023 → 2024 → 2025, Menlo Ventures)
 - **96%** organizacji planuje szerzej używać agentów AI — a bezpieczeństwo danych wskazuje jako główną barierę (Cloudera 2025)
 - **~30%** projektów GenAI porzuconych po fazie PoC z powodu niewystarczających kontroli ryzyka (Gartner 2024)
 
@@ -119,7 +119,7 @@ Cztery warstwy, w których te kategorie się układają:
 **Zagrożenia rosną w tym samym tempie:**
 
 - wzrost o ponad **4000%** maili phishingowych generowanych przy użyciu AI od powstania ChatGPT do połowy 2024 (SlashNext)
-- **71%** organizacji zgłasza incydenty związane z GenAI (IBM X-Force 2025)
+- **96%** organizacji uważa, że adopcja GenAI uprawdopodabnia breach w ciągu 3 lat (IBM X-Force 2025)
 - Od PoC exploita do ataku na skalę: **z tygodni na godziny**
 
 ![image:width:100%](./images/DEVO-whirlwind.jpeg)
@@ -142,7 +142,7 @@ Cztery warstwy, w których te kategorie się układają:
 **Sektor finansowy — mnożnik ryzyka**
 
 - Dane klientów pod RODO, KNF i DORA
-- Halucynacje w analizie finansowej = decyzj o fatalnych skutkach
+- Halucynacje w analizie finansowej = decyzja o fatalnych skutkach
 
 <!-- end_slide -->
 
@@ -545,8 +545,8 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 **OpenAI Agents vs Hugging Face (lipiec 2026)**
 
-- Agenci uciekli z sandboxa testowego przez zero-day w JFrog Artifactory
-- **~17 600 akcji atakującego** w ciągu 5 dni — bez instrukcji człowieka
+- Agenci uciekli z sandboxa testowego przez zero-day w systemie instalacji pakietów
+- **~17 000 akcji atakującego** w ciągu ~2,5 dnia — bez instrukcji człowieka
 - Pierwsze udokumentowane autonomiczne włamanie AI do produkcji
 - _OpenAI, TechCrunch — lipiec 2026_
 
