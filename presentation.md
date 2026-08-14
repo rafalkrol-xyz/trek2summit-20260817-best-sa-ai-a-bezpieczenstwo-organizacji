@@ -1126,12 +1126,9 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 > _"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards — and even then I have my doubts."_
 > — Gene Spafford, profesor informatyki na Uniwersytecie Purdue
 
-
-
 <!-- end_slide -->
 
-## Źródła i bibliografia
-
+## Źródła i bibliografia (1/4)
 ### Incydenty
 
 | # | Twierdzenie | Źródło | Data | Link |
@@ -1147,6 +1144,9 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 | 9 | Air Canada — chatbot podał fałszywą informację, firma odpowiada | CBC News | luty 2024 | https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416 |
 | 10 | Mata v. Avianca — 6 sfabrykowanych orzeczeń, sankcja $5 000 | American Bar Association | czerwiec 2023 | https://www.americanbar.org/groups/litigation/resources/litigation-news/2023/use-chatgpt-research-bogus-cases-sanctions/ |
 
+<!-- end_slide -->
+
+## Źródła i bibliografia (2/4)
 ### Statystyki i raporty
 
 | # | Twierdzenie | Źródło | Data | Link |
@@ -1157,6 +1157,9 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 | 14 | 4151% wzrost phishing maili od ChatGPT launch | SlashNext Mid-Year 2024 | maj 2024 | https://www.prnewswire.com/news-releases/slashnext-mid-year-state-of-phishing-report-shows-341-increase-in-bec-and-advanced-phishing-attacks-302152148.html |
 | 15 | 96% uważa, że GenAI uprawdopodabnia breach w 3 lata | IBM X-Force | 2025 | https://www.ibm.com/think/x-force/are-you-prepared-for-genai-disruption |
 
+<!-- end_slide -->
+
+## Źródła i bibliografia (3/4)
 ### Regulacje
 
 | # | Twierdzenie | Źródło | Link |
@@ -1166,21 +1169,18 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 | 18 | NIS2 — 24h early warning, 72h notification, 1 miesiąc raport | NIS2 Art. 23 | https://bastion.tech/learn/nis2/incident-reporting/ |
 | 19 | DORA — obowiązuje od 17.01.2025 | ESMA | https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora |
 
+<!-- end_slide -->
+
+## Źródła i bibliografia (4/4)
 ### Dodatkowe źródła
 
 - Hugging Face — oficjalne disclosure: https://huggingface.co/blog/security-incident-july-2026
 - Hugging Face — technical timeline: https://huggingface.co/blog/agent-intrusion-technical-timeline
 - LiteLLM — Trend Micro analysis: https://www.trendmicro.com/en_gb/research/26/c/inside-litellm-supply-chain-compromise.html
 - Zenity Labs — summary of Black Hat research: https://labs.zenity.io/p/summary-zenity-research-published-blackhat-2024
-
-
 - Samsung — od banicji do adopcji: https://www.cio.com/article/4184660/samsung-which-previously-blocked-chatgpt-is-now-fully-adopting-three-generative-ai-models-and-accelerating-its-ax-initiative.html
-
-
 - Korea Północna — deepfake IT workers, 47% infiltracji US tech (CrowdStrike 2026): https://www.techtimes.com/articles/322688/20260802/north-korean-it-workers-use-real-time-deepfakes-beat-hiring-checks-eleven-nations-warn.htm
 - Microsoft Threat Intelligence — Jasper Sleet (DPRK remote workers): https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/
-
-
 - AI pentesting — LLM exploit w 15–30 sek (400-run study): https://arxiv.org/abs/2605.30096
 - LLM-based SQL injection z 92% bypass rate na AI-WAF: https://arxiv.org/abs/2605.11188
 - Anthropic — Claude napisał exploit z opisu CVE: https://www.anthropic.com/research/exploit
@@ -1188,6 +1188,4 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - PoCGen — LLM generuje exploity dla 77% podatności: https://arxiv.org/abs/2506.04962
 - FireCompass 2026 — AI pentest w minutach vs 40h manualnie: https://firecompass.com/agentic-ai-pentesting-vs-human-pentesting-comparison-in-2026/
 - Aikido — autonomous vs manual pentesting benchmark: https://www.aikido.dev/reports/autonomous-vs-manual-pentesting-benchmark
-
-
 - Deloitte — halucynacje AI w raporcie za $290K dla rządu Australii (sfabrykowane cytaty i źródła): https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/
