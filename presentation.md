@@ -861,7 +861,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 **1. Amazon Bedrock Guardrails** — polityka niezależna od modelu, działa na wejściu i wyjściu
 
-- Pięć typów polityk: content filters · denied topics · sensitive information (PII) · word filters · contextual grounding
+- Sześć typów polityk: content filters · denied topics · sensitive information (PII) · word filters · contextual grounding · automated reasoning
 - Praktyka: jeden guardrail bazowy dla firmy + warstwa per use case
 - _Odpowiednik Azure:_ Azure AI Content Safety
 
@@ -924,37 +924,37 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Zasady vendor-neutral
 
-### 🌐 Działają niezależnie od platformy
+### Działają niezależnie od platformy
 
 <!-- pause -->
 
-- 🔐 **Least privilege dla agentów AI**
+- **Least privilege dla agentów AI**
   Domyślnie read-only; write i execute po jawnej aprobacie
 
 <!-- pause -->
 
-- 📊 **Klasyfikacja danych przed użyciem AI**
+- **Klasyfikacja danych przed użyciem AI**
   Dane poufne i regulowane — nigdy do narzędzi bez izolacji enterprise
 
 <!-- pause -->
 
-- 👤 **Human-in-the-loop dla decyzji krytycznych**
-  Żaden model nie decyduje samodzielnie w finansach, prawie i HR
+- **Human-in-the-loop dla decyzji krytycznych**
+  Żaden model nie decyduje samodzielnie w finansach, prawie, medycynie i HR
 
 <!-- pause -->
 
-- 📝 **Audit logging wszystkich interakcji z AI**
+- **Audit logging wszystkich interakcji z AI**
   Podstawa forensics i compliance
 
 <!-- pause -->
 
-- 🎯 **Regularny red-teaming**
+- **Regularny red-teaming**
   PromptFoo, Garak, testy manualne — w cyklu bezpieczeństwa
 
 <!-- pause -->
 
-- 🗂️ **Inwentaryzacja modeli i przypadków użycia**
-  Rejestr modeli i AI Bill of Materials — czego nie masz w rejestrze, tego nie ochronisz
+- **Inwentaryzacja modeli i przypadków użycia**
+  Rejestr modeli i AI Bill of Materials (BOM)
 
 <!-- end_slide -->
 
