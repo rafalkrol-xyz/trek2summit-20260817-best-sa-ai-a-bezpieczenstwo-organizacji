@@ -306,7 +306,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 ## AI Phishing — ewolucja ataków
 
-Od powstania ChatGPT do połowy 2024 wzrost o ponad **4000%** maili phishing generowanych przy pomocy AI (SlashNext)
+Od powstania ChatGPT do połowy 2024 wzrost o ponad **4000%** maili phishingowych generowanych przy pomocy AI (SlashNext)
 
 AI zmienia phishing w **trzech wymiarach**:
 
@@ -315,7 +315,7 @@ AI zmienia phishing w **trzech wymiarach**:
 **1. Jakość językowa**
 
 - Perfekcyjna gramatyka i styl — zero literówek
-- Natywny język ofiary, rejestr dopasowany do kanału
+- Natywny język ofiary, rejestr językowy dopasowany do kanału
 
 <!-- pause -->
 
@@ -329,10 +329,8 @@ AI zmienia phishing w **trzech wymiarach**:
 
 **3. Skalowalność**
 
-- Tysiące unikatowych wiadomości za ~$5 za kampanię
-- Każdy mail inny → filtry pattern-matching zawodzą
-
-→ _Zobaczmy to na konkretnym przykładzie._
+- Tysiące unikatowych wiadomości za grosze za kampanię
+- Każdy mail inny, czyli zwykłe filtry _pattern-matchingowe_ zawiodą
 
 <!-- end_slide -->
 
@@ -354,6 +352,8 @@ _Dział Bezpeczności ING"_
 ❌ Błędy ortograficzne
 ❌ Generyczny — brak danych
 ❌ Łatwy do wykrycia
+
+<!-- pause -->
 
 <!-- column: 1 -->
 
@@ -387,7 +387,7 @@ _Katarzyna Nowak, ING"_
 2. **Ekstrakcja cech** — model analizuje barwę, tempo, intonację
 3. **Synteza live** — atakujący mówi, ofiara słyszy głos szefa
 
-Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
+Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięcznie.
 
 <!-- pause -->
 
@@ -399,14 +399,14 @@ Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
 
 <!-- pause -->
 
-**🛡️ Weryfikacja — cztery techniki:**
+**Weryfikacja — cztery techniki:**
 
 - **Telefon** na numer z książki firmowej, nie z rozmowy
 - **Passphrase** ustalony w zespole dla zleceń finansowych
 - **Pytanie osobiste**, którego nie ma w LinkedIn
 - **Dwa kanały** — potwierdź zlecenie innym medium
 
-**Złota zasada:** pilne + finansowe + nietypowe → **zawsze** weryfikuj drugim kanałem.
+**Złota zasada:** pilne + finansowe + nietypowe → **zawsze** weryfikuj drugim kanałem
 
 <!-- end_slide -->
 
@@ -432,14 +432,15 @@ Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
 - Koszt: od $0 (open-source) do ~$20 (komercyjne API)
 - Czas: sekundy dla głosu, minuty dla wideo
 - Jakość przekroczyła próg wykrywalności ludzkiego oka w 2023
-
-→ _Zobaczmy, jak deepfake kosztował jedną firmę 25 milionów dolarów._
+- Stosowane przez Koreę Północną
+  - real-time deepfake na Zoomie → fałszywi pracownicy IT w firmach amerykańskich
+  - (CrowdStrike: **47%** infiltracji w US tech to DPRK, 2026)
 
 <!-- end_slide -->
 
 ## Deepfake — przypadek Arup
 
-**🔴 Arup (2024) — $25 mln straty**
+**Arup (2024) — $25 mln straty**
 
 - Międzynarodowa firma inżynieryjna, ponad 18 000 pracowników
 - Wektor: deepfake CFO na wideokonferencji
@@ -448,7 +449,7 @@ Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
 
 <!-- pause -->
 
-**🔍 Jak rozpoznać — bez specjalistycznych narzędzi:**
+**Jak rozpoznać — bez specjalistycznych narzędzi:**
 
 - Nienaturalne mrugnięcia — zbyt rzadkie lub mechaniczne
 - „Pływająca" granica twarzy przy żuchwie i włosach
@@ -458,14 +459,12 @@ Narzędzia komercyjne i open-source: koszt poniżej $5/miesiąc.
 
 <!-- pause -->
 
-**✅ Procedura przy podejrzeniu:**
+**Procedura przy podejrzeniu:**
 
 1. Telefon na znany numer — nie ten z rozmowy
 2. Pytanie kontrolne, którego nie ma w sieci
 3. Konsultacja z PBI
 4. **Nie autoryzuj transakcji** pod presją czasu
-
-→ _Od manipulacji jednostką przejdźmy do ataków na skalę masową._
 
 <!-- end_slide -->
 
@@ -476,17 +475,17 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 <!-- pause -->
 
 **1. Rekonesans**
-LLM analizuje publiczne commity firmy → stack technologiczny, wersje bibliotek, nazwy systemów wewnętrznych
+* LLM analizuje publiczne commity firmy → stack technologiczny, wersje bibliotek, nazwy systemów wewnętrznych
 
 <!-- pause -->
 
 **2. Skanowanie podatności**
-Model fuzzuje endpointy API → znajduje SQLi w 3 minuty zamiast 3 dni
+* Model automatycznie testuje tysiące wariantów zapytań do API → znajduje podatność SQL injection w 3 minuty zamiast 3 dni
 
 <!-- pause -->
 
 **3. Generowanie exploitów**
-Opis CVE → działający PoC z obejściem WAF w sekundy
+* Opis CVE → działający PoC z obejściem WAF w sekundy
 
 <!-- pause -->
 
@@ -1195,3 +1194,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 
 - Samsung — od banicji do adopcji: https://www.cio.com/article/4184660/samsung-which-previously-blocked-chatgpt-is-now-fully-adopting-three-generative-ai-models-and-accelerating-its-ax-initiative.html
+
+
+- Korea Północna — deepfake IT workers, 47% infiltracji US tech (CrowdStrike 2026): https://www.techtimes.com/articles/322688/20260802/north-korean-it-workers-use-real-time-deepfakes-beat-hiring-checks-eleven-nations-warn.htm
+- Microsoft Threat Intelligence — Jasper Sleet (DPRK remote workers): https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/
