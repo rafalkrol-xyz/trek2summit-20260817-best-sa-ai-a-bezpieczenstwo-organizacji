@@ -588,8 +588,6 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 | **Azure (Copilot)** | Purview DLP + Sensitivity Labels — blokuje dostęp do dokumentów „Confidential" |
 | **AWS (Bedrock Agents)** | IAM + Action Groups + Guardrails — tylko jawnie zdefiniowane akcje |
 
-→ _Uprawnienia to jedno. Zobaczmy, jak przejąć kontrolę nad samym modelem._
-
 <!-- end_slide -->
 
 ## Prompt Injection — typy
