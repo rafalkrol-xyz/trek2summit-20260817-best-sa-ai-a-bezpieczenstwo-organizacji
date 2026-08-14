@@ -205,11 +205,11 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- end_slide -->
 
-## Wycieki danych — enterprise vs consumer
+## Wycieki danych — enterprise vs zwykły konsument
 
-| Wymiar | Enterprise | Consumer |
+| Wymiar | Enterprise | Konsument |
 |---|---|---|
-| **Trening na danych** | nie | domyślnie tak |
+| **Trening na danych** | nie* | domyślnie tak |
 | **Retencja** | konfigurowalna | 30 dni – bezterminowo |
 | **Izolacja** | dedykowany tenant, VPC | infrastruktura wspólna |
 | **Audit log** | CloudTrail, Azure Monitor | brak wglądu |
@@ -217,15 +217,30 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- pause -->
 
-**Co to znaczy w praktyce:**
+**Co to oznacza w praktyce:**
 
 - **Copilot for M365** — izolacja na poziomie tenanta, dane nie trenują modelu ✅
 - **AWS Bedrock** — prompty nie są logowane domyślnie, logowanie włączacie świadomie ✅
 - **ChatGPT Free** w przeglądarce — dane mogą trenować model ⚠️
 
-**Zasada:** enterprise z kontraktem > consumer z opt-out > consumer bez opt-out.
+**Zasada:** duży może więcej
 
-→ _Zobaczmy, co się dzieje, gdy pracownik sam sięga po narzędzie poza kontrolą organizacji._
+_enterprise z kontraktem **lepsze niż** konsument z opt-out **lepsze niż** consumer bez opt-out_
+
+<!-- pause -->
+
+## Ale
+
+1. **AWS Bedrock jest jedyną platformą z Zero Data Retention (ZDR) domyślnie** — nie musisz o nic prosić, dane nie są nigdzie zapisywane, a operator nie ma w nie wglądu (Zero-Operator Access (ZOA) gwaratntowane fizycznie na poziomie procesora).
+2. **Azure wymaga formalnego procesu** — standardowo prompty są trzymane 30 dni i mogą podlegać ludzkiemu review. Opt-out wymaga enterprise agreement i akceptacji Microsoft.
+3. **Anthropic** dla API i Claude Code enterprise oferuje ZDR, ale **musisz mieć dedykowaną umowę**. Bez niej: 30 dni retencji. Dla _covered models_ retencja 30 dni jest obligatoryjna nawet z ZDR.
+4. **Gemini Enterprise Agent Platform** (dawniej Vertex AI) — **wymaga jednego lub dwóch kroków**: wyłączenia data caching na poziomie projektu oraz opt-out z abuse monitoring, jeśli nie masz umowy Enterprise.
+
+<!-- pause -->
+
+## Ale, ale
+
+_Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin Anthropica na modele, które ze względu na bardzo wysokie zdolności (szczególnie w domenach cyber i bio) podlegają obowiązkowej 30-dniowej retencji danych — **nawet jeśli masz umowę ZDR**, niezależnie od platformy (bezpośrednie API, AWS, Google, Azure).
 
 <!-- end_slide -->
 
