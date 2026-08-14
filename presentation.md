@@ -485,7 +485,7 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 <!-- pause -->
 
 **3. Generowanie exploitów**
-* Opis CVE → działający PoC z obejściem WAF w sekundy
+* Opis CVE → działający PoC z obejściem WAF w minuty
 
 <!-- pause -->
 
@@ -715,7 +715,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 ## Halucynacje — incydenty i weryfikacja
 
-**🔴 Air Canada (2024)**
+**Air Canada (2024)**
 
 - Chatbot podał fałszywą informację o zniżce żałobnej
 - Trybunał orzekł: firma odpowiada za to, co mówi jej chatbot
@@ -724,41 +724,31 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 <!-- pause -->
 
-**🔴 Mata v. Avianca (2023)**
+**Mata v. Avianca (2023)**
 
 - Adwokat użył ChatGPT do researchu orzecznictwa
 - Model **sfabrykował 6 nieistniejących orzeczeń** z sygnaturami
 - Sankcja $5 000, sprawa oddalona
 - _CNN, American Bar Association — 2023_
 
+**Deloitte zmyśla w raporcie dla rządu Australii  (2025)**
+- w raporcie za prawie pół miliona dolarów wykryto liczne błędy
+- Deloitte przyznaje sie do wpadki
+- Deloitte zapowiada zainwestowanie 3 miliardów dolarów w AI do 2030
+- PBI zaprasza Trek2Summit jako prelegenta na konferencję o bezpieczeństwie
+- _Fortune - październik 2025_
+
+---
+
 <!-- pause -->
 
-**✅ Praktyki weryfikacji:**
+**Praktyki weryfikacji:**
 
 - **Trust but verify** — każdy cytat i statystykę sprawdź w oryginale
 - **Dwa niezależne źródła** dla twierdzeń, na których opierasz decyzję
-- **Human-in-the-loop** — AI draftuje, człowiek zatwierdza, nigdy odwrotnie
+- **Human-in-the-loop** — AI szkicuje, człowiek zatwierdza
 - **Oznaczaj treści AI-generated** — kto wygenerował, kto zweryfikował
 - **Guardrails contextual grounding** — walidacja odpowiedzi względem źródła w RAG
-
-<!-- end_slide -->
-
-## 🛡️ Od zagrożeń do rozwiązań
-
-> **„Wiedza o zagrożeniach to nie słabość — to supermoc."**
-
-<!-- pause -->
-
-- 🧠 **Znasz wektory ataku** → rozpoznasz je, zanim zadziałają
-- 🔍 **Rozumiesz halucynacje** → weryfikujesz zamiast ufać
-- 🎯 **Widzisz Shadow AI** → wybierasz zatwierdzone narzędzia
-- 🛡️ **Wiesz, czym jest prompt injection** → nie dasz się zmanipulować
-
-<!-- pause -->
-
-Teraz konkrety: **best practices**, **framework oceny ryzyka** i **narzędzia** — dla Was i dla organizacji.
-
-![](images/it-security-awareness-meme.jpg)
 
 <!-- end_slide -->
 
