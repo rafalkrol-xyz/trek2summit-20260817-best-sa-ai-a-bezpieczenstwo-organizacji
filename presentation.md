@@ -231,7 +231,7 @@ _enterprise z kontraktem **lepsze niż** konsument z opt-out **lepsze niż** con
 
 ## Ale
 
-1. **AWS Bedrock jest jedyną platformą z Zero Data Retention (ZDR) domyślnie** — nie musisz o nic prosić, dane nie są nigdzie zapisywane, a operator nie ma w nie wglądu (Zero-Operator Access (ZOA) gwaratntowane fizycznie na poziomie procesora).
+1. **AWS Bedrock jest jedyną platformą z Zero Data Retention (ZDR) domyślnie** — nie musisz o nic prosić, dane nie są nigdzie zapisywane, a operator nie ma w nie wglądu (Zero-Operator Access (ZOA) gwarantowane fizycznie na poziomie procesora).
 2. **Azure wymaga formalnego procesu** — standardowo prompty są trzymane 30 dni i mogą podlegać ludzkiemu review. Opt-out wymaga enterprise agreement i akceptacji Microsoft.
 3. **Anthropic** dla API i Claude Code enterprise oferuje ZDR, ale **musisz mieć dedykowaną umowę**. Bez niej: 30 dni retencji. Dla _covered models_ retencja 30 dni jest obligatoryjna nawet z ZDR.
 4. **Gemini Enterprise Agent Platform** (dawniej Vertex AI) — **wymaga jednego lub dwóch kroków**: wyłączenia data caching na poziomie projektu oraz opt-out z abuse monitoring, jeśli nie masz umowy Enterprise.
@@ -514,7 +514,7 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 - Model bez guardrails, sprzedawany za **$110/mies.**
 - Zaprojektowany do Business Email Compromise (BEC) i phishingu — dla osób bez umiejętności technicznych
 - FraudGPT rozszerzył ofertę o generowanie malware
-- _Krebs on Security, TechCrunch — sierpień 2023_
+- _SlashNext, Wired, Dark Reading — lipiec/sierpień 2023_
 
 <!-- pause -->
 
@@ -732,7 +732,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 - _CNN, American Bar Association — 2023_
 
 **Deloitte zmyśla w raporcie dla rządu Australii  (2025)**
-- w raporcie za prawie pół miliona dolarów wykryto liczne błędy
+- w raporcie za ponad cwierć miliona dolarów wykryto liczne błędy
 - Deloitte przyznaje sie do wpadki
 - Deloitte zapowiada zainwestowanie 3 miliardów dolarów w AI do 2030
 - PBI zaprasza Trek2Summit jako prelegenta na konferencję o bezpieczeństwie
@@ -1070,7 +1070,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 <!-- pause -->
 
 ### **4. Agenci AI domyślnie read-only i/lub w piaskownicy**
-* Jedno „Trust always” = pełny dostęp do systemun na wieki wieków
+* Jedno „Trust always” = pełny dostęp do systemu na wieki wieków
 
 <!-- pause -->
 
