@@ -1196,3 +1196,12 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 - Korea Północna — deepfake IT workers, 47% infiltracji US tech (CrowdStrike 2026): https://www.techtimes.com/articles/322688/20260802/north-korean-it-workers-use-real-time-deepfakes-beat-hiring-checks-eleven-nations-warn.htm
 - Microsoft Threat Intelligence — Jasper Sleet (DPRK remote workers): https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/
+
+
+- AI pentesting — LLM exploit w 15–30 sek (400-run study): https://arxiv.org/abs/2605.30096
+- LLM-based SQL injection z 92% bypass rate na AI-WAF: https://arxiv.org/abs/2605.11188
+- Anthropic — Claude napisał exploit z opisu CVE: https://www.anthropic.com/research/exploit
+- AI pentesting obeszło WAF i znalazło RCE: https://escape.tech/blog/how-ai-pentesting-found-an-unauthenticated-rce-and-walked-around-the-waf/
+- PoCGen — LLM generuje exploity dla 77% podatności: https://arxiv.org/abs/2506.04962
+- FireCompass 2026 — AI pentest w minutach vs 40h manualnie: https://firecompass.com/agentic-ai-pentesting-vs-human-pentesting-comparison-in-2026/
+- Aikido — autonomous vs manual pentesting benchmark: https://www.aikido.dev/reports/autonomous-vs-manual-pentesting-benchmark
