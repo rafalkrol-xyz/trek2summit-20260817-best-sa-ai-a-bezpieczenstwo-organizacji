@@ -620,7 +620,7 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 
 **Poziom użytkownika:**
 
-- Weryfikuj wyniki Copilota — nie ufaj ślepo summaryzacji maila
+- Weryfikuj wyniki Copilota
 - Nie wklejaj niezweryfikowanych treści do AI
 
 <!-- pause -->
@@ -629,13 +629,15 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 
 - **System prompt** w Secrets Manager — nigdy sklejany z danymi z zewnątrz
 - **Kontekst w wydzielonych blokach** (XML/JSON) z oznaczeniem pochodzenia
-- **Walidacja wyjścia** przed wykonaniem akcji — schemat + biała lista działań
+- **Walidacja wyjścia** przed wykonaniem akcji — schemat + lista działań dozwolonych
 - **Guardrails** na wejściu i wyjściu: AWS Bedrock Guardrails ↔ Azure AI Content Safety
 - **Monitoring anomalii** — nietypowe długości promptów, wzrost blokad w krótkim oknie
 
 <!-- pause -->
 
-**🔴 Microsoft Copilot — Zenity Labs (Black Hat USA 2024)**
+---
+
+**Microsoft Copilot — Zenity Labs (Black Hat USA 2024)**
 
 - Indirect prompt injection przez mail, Teams i kalendarz w M365
 - Copilota dało się zmanipulować do eksfiltracji danych i phishingu użytkowników
@@ -648,7 +650,7 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 
 ## Prompt Injection — PromptFoo
 
-**🧪 Automatyczny red-teaming aplikacji AI:**
+**Automatyczny red-teaming aplikacji AI:**
 
 ```yaml
 # promptfooconfig.yaml
