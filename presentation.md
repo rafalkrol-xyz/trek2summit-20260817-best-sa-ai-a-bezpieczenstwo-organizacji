@@ -132,19 +132,17 @@ Cztery warstwy, w których te kategorie się układają:
 
 - Copilot ma dostęp do maili, SharePointa i Teams — ogromna powierzchnia
 - Każdy prompt to potencjalny kontakt z danymi klientów
-- Złośliwa treść w mailu może pokierować Copilotem bez Waszej wiedzy
+- Złośliwa treść w mailu może pokierować Copilotem bez wiedzy użytkownika
 
 **Migracja do AWS**
 
-- Nowe workloady = nowe możliwości AI (Bedrock, SageMaker)
+- Nowe workloady = nowe możliwości AI (Bedrock, AgentCore, SageMaker)
 - Multi-cloud = więcej integracji = większa powierzchnia ataku
 
 **Sektor finansowy — mnożnik ryzyka**
 
 - Dane klientów pod RODO, KNF i DORA
-- Halucynacja w analizie finansowej = decyzja o realnych skutkach
-
-→ _Zaczynamy od wycieków danych — najczęstszego i najbardziej podstępnego wektora._
+- Halucynacje w analizie finansowej = decyzj o fatalnych skutkach
 
 <!-- end_slide -->
 
@@ -184,7 +182,8 @@ Cztery warstwy, w których te kategorie się układają:
 
 - 3 osobne incydenty w 20 dni od zniesienia banu na AI
 - Pracownicy wklejali kod źródłowy i notatki ze spotkań
-- Samsung zabanował wszystkie narzędzia generative AI
+- Samsung zakazał używania narzędzi opartych o zewnętrzne AI*
+  * zakaz został cofnięty w czerwcu tego roku
 - _TechRadar, The Register, Mashable — kwiecień 2023_
 
 <!-- pause -->
@@ -198,8 +197,11 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- pause -->
 
-**⚠️ Udostępniłeś dane przypadkiem? Cztery kroki:**
-powiadom PBI → udokumentuj co i gdzie → sprawdź retencję dostawcy → złóż żądanie usunięcia danych.
+**🙀 Udostępniłeś dane przypadkiem? Cztery kroki:**
+1. Powiadom PBI,
+2. udokumentuj co i gdzie,
+3. sprawdź retencję u dostawcy,
+4. złóż żądanie usunięcia danych.
 
 <!-- end_slide -->
 
