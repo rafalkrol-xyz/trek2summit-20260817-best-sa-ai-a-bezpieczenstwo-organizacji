@@ -3,3 +3,6 @@
 
 # macOS specific
 .DS_Store
+
+# Used as my scratchpad when working on this project
+my_notes.md
