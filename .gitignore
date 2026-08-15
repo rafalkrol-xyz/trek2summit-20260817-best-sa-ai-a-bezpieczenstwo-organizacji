@@ -1,13 +1,5 @@
-# AI agent local configs
-.kiro/*
-!.kiro/steering/
-.cursor
-.windsurf
-.cline
-.aider*
-.copilot
-.continue
-.codeium
+# Ignore Kiro specs; keep the rest of Kiro folders, though
+.kiro/specs/
 
 # macOS specific
 .DS_Store
