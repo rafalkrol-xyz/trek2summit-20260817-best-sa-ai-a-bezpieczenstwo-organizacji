@@ -126,6 +126,8 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- end_slide -->
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 ## Kontekst BEST S.A. — Copilot + AWS
 
 **Microsoft 365 + Copilot**
@@ -143,6 +145,9 @@ Cztery warstwy, w których te kategorie się układają:
 
 - Dane klientów pod RODO, KNF i DORA
 - Halucynacje w analizie finansowej = decyzja o fatalnych skutkach
+
+<!-- column: 1 -->
+![image:width:100%](./images/best.png)
 
 <!-- end_slide -->
 
