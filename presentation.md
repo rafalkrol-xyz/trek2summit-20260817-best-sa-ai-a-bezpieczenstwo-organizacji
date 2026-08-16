@@ -202,7 +202,9 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- pause -->
 
-**🙀 Udostępniłeś dane przypadkiem? Cztery kroki:**
+---
+
+**Udostępniłeś dane przypadkiem? Cztery kroki:**
 1. Powiadom PBI,
 2. udokumentuj co i gdzie,
 3. sprawdź retencję u dostawcy,
