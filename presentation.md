@@ -251,6 +251,8 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 <!-- end_slide -->
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 ## Shadow AI — zagrożenia
 
 **Shadow AI** = narzędzia AI używane bez wiedzy organizacji — poza kontrolą IT, compliance i PBI.
@@ -266,7 +268,11 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 3. **Decyzje na niezweryfikowanych wynikach**
 * Halucynacja w analizie → błędna decyzja windykacyjna
 
+<!-- column: 1 -->
+![shadow ai:width:100%](./images/shadow-ai-meme.jpeg)
+
 <!-- pause -->
+<!-- reset_layout -->
 
 **Scenariusze w firmie finansowej:**
 
@@ -276,7 +282,6 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 > Organizacja, która nie wie, jak jej dane są przetwarzane, nie może ich chronić.
 
-![shadow ai](./images/shadow-ai-meme.jpeg)
 
 <!-- end_slide -->
 
