@@ -1162,14 +1162,18 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 |---|---|---|---|---|
 | 1 | Arup — $25 mln straty po deepfake video callu | CNN | maj 2024 | https://www.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk/index.html |
 | 2 | Samsung — 3 wycieki danych do ChatGPT w 20 dni | TechRadar | kwiecień 2023 | https://www.techradar.com/news/samsung-workers-leaked-company-secrets-by-using-chatgpt |
-| 3 | LiteLLM — supply chain attack, 2500+ organizacji | The Hacker News | marzec 2026 | https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html |
+| 3 | LiteLLM — supply chain attack, 2500+ organizacji | The Hacker News | marzec 2026 | https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html |
 | 4 | Agenci OpenAI uciekli z sandboxa → atak na Hugging Face | Ars Technica | lipiec 2026 | https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/ |
 | 5 | CEO voice clone fraud — €220 000 | The Wall Street Journal / Euler Hermes | wrzesień 2019 | https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/ |
-| 6 | WormGPT — $110/mies. na HackForums | CSO Online | 2023 | https://www.csoonline.com/article/4008912/wormgpt-returns-new-malicious-ai-variants-built-on-grok-and-mixtral-uncovered.html |
-| 7 | FraudGPT — $200/mies. na dark webie | Dark Reading | lipiec 2023 | https://www.darkreading.com/threat-intelligence/fraudgpt-malicious-chatbot-for-sale-dark-web |
-| 8 | Microsoft Copilot prompt injection — Zenity Labs / Black Hat USA | TechTarget | sierpień 2024 | https://www.techtarget.com/searchsecurity/news/366602358/Zenity-CTO-on-dangers-of-Microsoft-Copilot-prompt-injections |
-| 9 | Air Canada — chatbot podał fałszywą informację, firma odpowiada | CBC News | luty 2024 | https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416 |
-| 10 | Mata v. Avianca — 6 sfabrykowanych orzeczeń, sankcja $5 000 | American Bar Association | czerwiec 2023 | https://www.americanbar.org/groups/litigation/resources/litigation-news/2023/use-chatgpt-research-bogus-cases-sanctions/ |
+| 6 | WormGPT — $110/mies. na HackForums | Krebs on Security | sierpień 2023 | https://krebsonsecurity.com/2023/08/meet-the-brains-behind-the-malware-friendly-ai-chat-service-wormgpt/ |
+| 7 | WormGPT powraca — warianty na Grok i Mixtral | CSO Online | 2025 | https://www.csoonline.com/article/4008912/wormgpt-returns-new-malicious-ai-variants-built-on-grok-and-mixtral-uncovered.html |
+| 8 | FraudGPT — $200/mies. na dark webie | Dark Reading | lipiec 2023 | https://www.darkreading.com/threat-intelligence/fraudgpt-malicious-chatbot-for-sale-dark-web |
+| 9 | Microsoft Copilot prompt injection — Zenity Labs / Black Hat USA | TechTarget | sierpień 2024 | https://www.techtarget.com/searchsecurity/news/366602358/Zenity-CTO-on-dangers-of-Microsoft-Copilot-prompt-injections |
+| 10 | Air Canada — chatbot podał fałszywą informację, firma odpowiada | CBC News | luty 2024 | https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416 |
+| 11 | Mata v. Avianca — 6 sfabrykowanych orzeczeń, sankcja $5 000 | American Bar Association | czerwiec 2023 | https://www.americanbar.org/groups/litigation/resources/litigation-news/2023/use-chatgpt-research-bogus-cases-sanctions/ |
+| 12 | GTG-1002 — AI wykonała 80–90% pracy taktycznej, ~30 celów | Anthropic | listopad 2025 | https://www.anthropic.com/news/disrupting-AI-espionage |
+| 13 | GTG-1002 — katalogizacja kampanii jako C0062 | MITRE ATT&CK | 2026 | https://attack.mitre.org/campaigns/C0062/ |
+| 14 | XBOW — pierwszy nie-człowiek na 1. miejscu HackerOne US, ~1060 zgłoszeń | CSO Online | czerwiec 2025 | https://www.csoonline.com/article/4012801/the-top-red-teamer-in-the-us-is-an-ai-bot.html |
 
 <!-- end_slide -->
 
@@ -1178,11 +1182,11 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 | # | Twierdzenie | Źródło | Data | Link |
 |---|---|---|---|---|
-| 11 | Wydatki enterprise na GenAI: $2,3B → $13,8B → $37B | Menlo Ventures | grudzień 2025 | https://www.globenewswire.com/de/news-release/2025/12/09/3202258/0/en/Menlo-Ventures-2025-State-of-Generative-AI-Report-Enterprise-Investment-Hit-37B-in-2025-Tripling-in-One-Year.html |
-| 12 | 96% organizacji planuje rozszerzać użycie agentów AI | Cloudera | kwiecień 2025 | https://www.cloudera.com/about/news-and-blogs/press-releases/2025-04-16-96-percent-of-enterprises-are-expanding-use-of-ai-agents-according-to-latest-data-from-cloudera.html |
-| 13 | ~30% projektów GenAI porzuconych po PoC | Gartner | lipiec 2024 | https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025 |
-| 14 | 4151% wzrost phishing maili od ChatGPT launch | SlashNext Mid-Year 2024 | maj 2024 | https://www.prnewswire.com/news-releases/slashnext-mid-year-state-of-phishing-report-shows-341-increase-in-bec-and-advanced-phishing-attacks-302152148.html |
-| 15 | 96% uważa, że GenAI uprawdopodabnia breach w 3 lata | IBM X-Force | 2025 | https://www.ibm.com/think/x-force/are-you-prepared-for-genai-disruption |
+| 15 | Wydatki enterprise na GenAI: $2,3B → $13,8B → $37B | Menlo Ventures | grudzień 2025 | https://www.globenewswire.com/de/news-release/2025/12/09/3202258/0/en/Menlo-Ventures-2025-State-of-Generative-AI-Report-Enterprise-Investment-Hit-37B-in-2025-Tripling-in-One-Year.html |
+| 16 | 96% organizacji planuje rozszerzać użycie agentów AI | Cloudera | kwiecień 2025 | https://www.cloudera.com/about/news-and-blogs/press-releases/2025-04-16-96-percent-of-enterprises-are-expanding-use-of-ai-agents-according-to-latest-data-from-cloudera.html |
+| 17 | ~30% projektów GenAI porzuconych po PoC | Gartner | lipiec 2024 | https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025 |
+| 18 | 4151% wzrost liczby złośliwych wiadomości phishingowych od premiery ChatGPT (metryka obejmuje cały phishing, nie tylko AI-generated) | SlashNext Mid-Year 2024 | maj 2024 | https://www.prnewswire.com/news-releases/slashnext-mid-year-state-of-phishing-report-shows-341-increase-in-bec-and-advanced-phishing-attacks-302152148.html |
+| 19 | 96% uważa, że GenAI uprawdopodabnia breach w 3 lata | IBM X-Force | 2025 | https://www.ibm.com/think/x-force/are-you-prepared-for-genai-disruption |
 
 <!-- end_slide -->
 
@@ -1191,15 +1195,18 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 | # | Twierdzenie | Źródło | Link |
 |---|---|---|---|
-| 16 | EU AI Act — kary do 35 mln EUR / 7% obrotu | EU AI Act Art. 99 | https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99 |
-| 17 | EU AI Act — timeline: prohibited 02.2025, GPAI 08.2025, high-risk 08.2026 | Legiscope | https://www.legiscope.com/blog/eu-ai-act-timeline-deadlines.html |
-| 18 | NIS2 — 24h early warning, 72h notification, 1 miesiąc raport | NIS2 Art. 23 | https://bastion.tech/learn/nis2/incident-reporting/ |
-| 19 | DORA — obowiązuje od 17.01.2025 | ESMA | https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora |
+| 20 | EU AI Act — kary do 35 mln EUR / 7% obrotu | EU AI Act Art. 99 | https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99 |
+| 21 | EU AI Act Art. 50 — obowiązki transparencji od 02.08.2026 | Komisja Europejska | https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content |
+| 22 | Digital Omnibus on AI — high-risk przesunięty na 02.12.2027 (Annex III) i 02.08.2028 (Annex I); znakowanie treści do 02.12.2026 | Rada UE | https://www.consilium.europa.eu/en/policies/artificial-intelligence-act/timeline-artificial-intelligence/ |
+| 23 | NIS2 — 24h early warning, 72h notification, 1 miesiąc raport | NIS2 Art. 23 | https://bastion.tech/learn/nis2/incident-reporting/ |
+| 24 | DORA — obowiązuje od 17.01.2025 | ESMA | https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora |
 
 <!-- end_slide -->
 
 ## Źródła i bibliografia (4/4)
 ### Dodatkowe źródła
+
+**Incydenty — materiały pierwotne i pogłębione**
 
 - Hugging Face — oficjalne disclosure: https://huggingface.co/blog/security-incident-july-2026
 - Hugging Face — technical timeline: https://huggingface.co/blog/agent-intrusion-technical-timeline
@@ -1208,11 +1215,18 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - Samsung — od banicji do adopcji: https://www.cio.com/article/4184660/samsung-which-previously-blocked-chatgpt-is-now-fully-adopting-three-generative-ai-models-and-accelerating-its-ax-initiative.html
 - Korea Północna — deepfake IT workers, 47% infiltracji US tech (CrowdStrike 2026): https://www.techtimes.com/articles/322688/20260802/north-korean-it-workers-use-real-time-deepfakes-beat-hiring-checks-eleven-nations-warn.htm
 - Microsoft Threat Intelligence — Jasper Sleet (DPRK remote workers): https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/
-- AI pentesting — LLM exploit w 15–30 sek (400-run study): https://arxiv.org/abs/2605.30096
-- LLM-based SQL injection z 92% bypass rate na AI-WAF: https://arxiv.org/abs/2605.11188
+- Deloitte — halucynacje w raporcie za $290K dla rządu Australii: https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/
+
+**Automatyzacja ataków — badania i benchmarki**
+
+- Anthropic — pełny raport GTG-1002 (PDF): https://www.anthropic.com/news/disrupting-AI-espionage
+- Horizon3.ai — model zagrożeń GTG-1002 od strony obrony: https://horizon3.ai/intelligence/blogs/first-ai-state-sponsored-attack-threat-model/
+- XBOW — jak osiągnęli 1. miejsce (źródło producenta): https://xbow.com/blog/top-1-how-xbow-did-it
+- NYU Tandon — analiza XBOW i deterministycznej walidacji: https://engineering.nyu.edu/news/ai-driven-pen-tester-became-top-bug-hunter-hackerone
 - Anthropic — Claude napisał exploit z opisu CVE: https://www.anthropic.com/research/exploit
-- AI pentesting obeszło WAF i znalazło RCE: https://escape.tech/blog/how-ai-pentesting-found-an-unauthenticated-rce-and-walked-around-the-waf/
 - PoCGen — LLM generuje exploity dla 77% podatności: https://arxiv.org/abs/2506.04962
-- FireCompass 2026 — AI pentest w minutach vs 40h manualnie: https://firecompass.com/agentic-ai-pentesting-vs-human-pentesting-comparison-in-2026/
+- LLM-based SQL injection — 92% bypass rate na AI-WAF: https://arxiv.org/abs/2605.11188
+- LLM exploit w 15–30 sek (badanie na 400 przebiegach): https://arxiv.org/abs/2605.30096
+- AI pentesting obeszło WAF i znalazło nieuwierzytelniony RCE: https://escape.tech/blog/how-ai-pentesting-found-an-unauthenticated-rce-and-walked-around-the-waf/
+- FireCompass — agentic vs human pentesting: https://firecompass.com/agentic-ai-pentesting-vs-human-pentesting-comparison-in-2026/
 - Aikido — autonomous vs manual pentesting benchmark: https://www.aikido.dev/reports/autonomous-vs-manual-pentesting-benchmark
-- Deloitte — halucynacje AI w raporcie za $290K dla rządu Australii (sfabrykowane cytaty i źródła): https://fortune.com/2025/10/07/deloitte-ai-australia-government-report-hallucinations-technology-290000-refund/
