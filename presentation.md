@@ -1,6 +1,6 @@
 ---
 title: "AI a bezpieczeństwo organizacji"
-sub_title: "Wewnętrzna konferencja BEST S.A., 2026-08-17"
+sub_title: "Wewnętrzna konferencja BEST S.A., 2026-08-18"
 author: "Rafał Król — Head of AWS Technologies, Trek2Summit"
 theme:
   name: catppuccin-latte
