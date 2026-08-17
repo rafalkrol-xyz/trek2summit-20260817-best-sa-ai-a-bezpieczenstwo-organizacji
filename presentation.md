@@ -490,37 +490,33 @@ Narzędzia komercyjne i open-source: koszt rzędu kilkudziesięciu dolarów mies
 
 <!-- end_slide -->
 
-## Automatyzacja ataków — techniki
+## II. Osiem kategorii zagrożeń: Automatyzacja ataków — techniki
 
-AI automatyzuje **każdy etap** łańcucha ataku:
+AI automatyzuje kolejne etapy łańcucha ataku: **rekonesans → szukanie podatności → exploit → ruch boczny → eksfiltracja**.
 
+Nie zmienia się repertuar technik. Zmienia się **tempo i skala**.
 
+---
 
-**1. Rekonesans**
-* LLM analizuje publiczne commity firmy → stack technologiczny, wersje bibliotek, nazwy systemów wewnętrznych
+**GTG-1002 (2025) — pierwsza opisana kampania szpiegowska orkiestrowana przez AI**
 
+- Około **30 celów**: technologia, finanse, przemysł chemiczny, administracja
+- **80–90%** pracy taktycznej wykonał model; ludzie zatwierdzali kluczowe decyzje
+- Tempo: tysiące zapytań, w szczycie kilka operacji na sekundę
+- _Anthropic Threat Intelligence — listopad 2025_
 
+---
 
-**2. Skanowanie podatności**
-* Model automatycznie testuje tysiące wariantów zapytań do API → znajduje podatność SQL injection w 3 minuty zamiast 3 dni
+**XBOW (2025) — autonomiczny pentester na 1. miejscu rankingu HackerOne w USA**
 
-
-
-**3. Generowanie exploitów**
-* Opis CVE → działający PoC z obejściem WAF w minuty
-
-
-
-| Etap | Manualnie | Z AI |
-|---|---|---|
-| Rekonesans firmy | 2–5 dni | 15–30 min |
-| Skan 1000 endpointów | 8–12 h | 10–20 min |
-| Exploit PoC z CVE | 4–48 h | 5–30 min |
-| Kampania na 500 osób | 3–5 dni | 2–4 h |
+- Ponad **1 000 zgłoszeń** podatności w kilka miesięcy (RCE, SQLi, SSRF, path traversal)
+- Pierwszy nie-człowiek na szczycie listy — przed tysiącami ludzkich badaczy
+- Zgłoszenia dotyczyły m.in. Disneya, AT&T i Forda
+- _CSO Online, TechRepublic — czerwiec 2025_
 
 <!-- end_slide -->
 
-## Asymetria — atakujący vs obrona
+## II. Osiem kategorii zagrożeń: Asymetria — atakujący vs obrona
 
 | Wymiar | AI-atakujący | Tradycyjna obrona |
 |---|---|---|
@@ -546,7 +542,7 @@ Obrona to **AI po stronie defensywy, np. AWS Security Agent** + świadomość pr
 
 <!-- end_slide -->
 
-## Autonomia agentów AI — ryzyka
+## II. Osiem kategorii zagrożeń: Autonomia agentów AI — ryzyka
 
 **Agent AI = kod wykonujący się z Waszymi uprawnieniami.**
 
@@ -573,7 +569,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 <!-- end_slide -->
 
-## Autonomia agentów AI — ryzyka czy szanse? - „bo nie wszyscy są po równo równi”
+## II. Osiem kategorii zagrożeń: Autonomia agentów AI — ryzyka czy szanse? - „bo nie wszyscy są po równo równi”
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
@@ -623,7 +619,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 <!-- end_slide -->
 
-## Prompt Injection — typy
+## II. Osiem kategorii zagrożeń: Prompt Injection — typy
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
@@ -652,7 +648,7 @@ Cel: obejście promptu systemowego. Bez Guardrails model wykona instrukcję.
 
 <!-- end_slide -->
 
-## Prompt Injection — obrona
+## II. Osiem kategorii zagrożeń: Prompt Injection — obrona
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
@@ -689,7 +685,7 @@ Cel: obejście promptu systemowego. Bez Guardrails model wykona instrukcję.
 
 <!-- end_slide -->
 
-## Prompt Injection — PromptFoo
+## II. Osiem kategorii zagrożeń: Prompt Injection — PromptFoo
 
 **Automatyczny red-teaming aplikacji AI:**
 
@@ -727,7 +723,7 @@ Cykliczny red-teaming przed każdą zmianą promptu, modelu lub bazy wiedzy — 
 
 <!-- end_slide -->
 
-## Halucynacje — typy i mechanizm
+## II. Osiem kategorii zagrożeń: Halucynacje — typy i mechanizm
 
 **Halucynacja** = informacja brzmiąca wiarygodnie, ale fałszywa — podana z pełnym przekonaniem.
 
@@ -756,7 +752,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 <!-- end_slide -->
 
-## Halucynacje — incydenty i weryfikacja
+## II. Osiem kategorii zagrożeń: Halucynacje — incydenty i weryfikacja
 
 **Air Canada (2024)**
 
