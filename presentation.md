@@ -787,7 +787,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 <!-- end_slide -->
 
-## Zasady bezpiecznego AI (1/2)
+## III. Od zagrożeń do rozwiązań: zasady bezpiecznego AI
 
 ### Zachowania indywidualne
 
@@ -802,28 +802,20 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 - ❌ **Nie kopiuj kodu produkcyjnego** do publicznych modeli
 - ❌ **Nie ufaj AI w kwestiach prawnych** bez weryfikacji źródłowej
 
-<!-- end_slide -->
+### Polityki organizacyjne — działają niezależnie od platformy
 
-## Zasady bezpiecznego AI (2/2)
-
-### Polityki organizacyjne
-
-
-
-- **Rejestr zatwierdzonych narzędzi AI** (PBI)
+- **Rejestr zatwierdzonych narzędzi AI** (PBI) — i lista use case'ów, nie tylko narzędzi
 - **Klasyfikacja danych dla AI** — publiczne / wewnętrzne / poufne
-- **Audit logging interakcji z AI**
-- **Human-in-the-loop dla decyzji krytycznych**
-
-
-
+- **Audit logging interakcji z AI** — podstawa forensics i compliance
+- **Human-in-the-loop dla decyzji krytycznych** — finanse, prawo, HR
+- **Least privilege dla agentów** — domyślnie read-only; write i execute po jawnej aprobacie
 - **Regularny red-teaming** — testuj, zanim zrobi to atakujący
-- **Least privilege dla agentów** — domyślnie read-only
+- **Inwentaryzacja modeli** — AI Bill of Materials: co, gdzie, na czyich danych
 - **Szkolenia i awareness** — takie jak dzisiejsze spotkanie
 
 <!-- end_slide -->
 
-## Ściągawka oceny ryzyka narzędzi AI
+## III. Od zagrożeń do rozwiązań: ściągawka oceny ryzyka narzędzi AI
 
 ### Zanim zaczniesz używać nowego narzędzia
 
@@ -850,7 +842,7 @@ _zapytaj PBI, zanim zaczniesz_
 
 <!-- end_slide -->
 
-## Kto za co odpowiada
+## III. Od zagrożeń do rozwiązań: kto za co odpowiada
 
 **AWS odpowiada za bezpieczeństwo _chmury_**
 
@@ -878,110 +870,28 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 <!-- end_slide -->
 
-## Narzędzia bezpieczeństwa — AWS
+## III. Od zagrożeń do rozwiązań: narzędzia — AWS i Azure
 
+| Funkcja | AWS | Azure |
+|---|---|---|
+| Filtry wejścia i wyjścia | Bedrock Guardrails | AI Content Safety |
+| Kontrola dostępu do modeli | IAM | Entra ID + RBAC |
+| Audit trail | CloudTrail + model invocation logging | Azure Monitor + Diagnostic Settings |
+| Klasyfikacja danych | Macie + Lake Formation | Purview |
+| Posture i wykrywanie | Security Hub + GuardDuty | Defender for Cloud |
+| Ochrona na poziomie dokumentu | częściowo KMS + S3 Object Lock | Information Protection |
 
+---
 
-**1. Amazon Bedrock Guardrails** — polityka niezależna od modelu, działa na wejściu i wyjściu
+**Trzy rzeczy, które trzeba wiedzieć w praktyce:**
 
-- Sześć typów polityk: content filters · denied topics · sensitive information (PII) · word filters · contextual grounding · automated reasoning
-- Praktyka: jeden guardrail bazowy dla firmy + warstwa per use case
-- _Odpowiednik Azure:_ Azure AI Content Safety
-
-
-
-**2. IAM + kontrola dostępu do modeli**
-
-- Least privilege dla każdej aplikacji i agenta, ograniczenie do konkretnych modeli i akcji
-- _Odpowiednik Azure:_ Microsoft Entra ID + RBAC
-
-
-
-**3. CloudTrail + Bedrock model invocation logging**
-
-- Pełny audit trail; logowanie promptów i odpowiedzi jest **domyślnie wyłączone** — trzeba je świadomie włączyć
-- Bez tych logów SOC nie ma materiału do wykrycia prompt injection
-- _Odpowiednik Azure:_ Azure Monitor + Diagnostic Settings
-
-
-
-**4. Amazon Macie** — wykrywanie danych wrażliwych w S3, także w logach promptów
-
-- _Odpowiednik Azure:_ Microsoft Purview
+- **Bedrock Guardrails** działa niezależnie od modelu, na wejściu i wyjściu — sześć typów polityk (content filters, denied topics, PII, word filters, contextual grounding, automated reasoning). Praktyka: jeden guardrail bazowy dla firmy + warstwa per use case.
+- **Logowanie promptów i odpowiedzi w Bedrock jest domyślnie wyłączone.** Bez niego SOC nie ma materiału, żeby wykryć prompt injection. Proste, ale łatwo przeoczyć.
+- **Purview i Sensitivity Labels** to jedyny mechanizm, który realnie ogranicza, co Copilot widzi. Copilot respektuje etykiety i uprawnienia użytkownika — jeśli etykiet nie ma, widzi wszystko, do czego użytkownik ma dostęp.
 
 <!-- end_slide -->
 
-## Narzędzia bezpieczeństwa — Azure
-
-
-
-**1. Azure AI Content Safety**
-
-- Detekcja treści szkodliwych, prompt injection i jailbreaków; konfigurowalne progi severity
-- _Odpowiednik AWS:_ Amazon Bedrock Guardrails
-
-
-
-**2. Microsoft Purview**
-
-- Klasyfikacja i governance danych; Copilot respektuje Sensitivity Labels
-- DLP blokuje wysyłanie sklasyfikowanych danych do niezatwierdzonych narzędzi AI
-- _Odpowiednik AWS:_ Amazon Macie + AWS Lake Formation
-
-
-
-**3. Microsoft Defender for Cloud**
-
-- Posture management dla workloadów AI — misconfiguration, nadmierne uprawnienia
-- Alerty na podejrzane wzorce użycia AI
-- _Odpowiednik AWS:_ AWS Security Hub + Amazon GuardDuty
-
-
-
-**4. Azure Information Protection**
-
-- Szyfrowanie na poziomie dokumentu; Copilot widzi tylko to, do czego użytkownik ma prawa
-- _Brak bezpośredniego odpowiednika w AWS_ — częściowo S3 Object Lock + KMS
-
-<!-- end_slide -->
-
-## Zasady vendor-neutral
-
-### Działają niezależnie od platformy
-
-
-
-- **Least privilege dla agentów AI**
-  Domyślnie read-only; write i execute po jawnej aprobacie
-
-
-
-- **Klasyfikacja danych przed użyciem AI**
-  Dane poufne i regulowane — nigdy do narzędzi bez izolacji enterprise
-
-
-
-- **Human-in-the-loop dla decyzji krytycznych**
-  Żaden model nie decyduje samodzielnie w finansach, prawie, medycynie i HR
-
-
-
-- **Audit logging wszystkich interakcji z AI**
-  Podstawa forensics i compliance
-
-
-
-- **Regularny red-teaming**
-  PromptFoo, Garak, testy manualne — w cyklu bezpieczeństwa
-
-
-
-- **Inwentaryzacja modeli i przypadków użycia**
-  Rejestr modeli i AI Bill of Materials (BOM)
-
-<!-- end_slide -->
-
-## Regulacje — co musimy udowodnić
+## III. Od zagrożeń do rozwiązań: regulacje — co musimy udowodnić
 
 **EU AI Act** — klasyfikacja ryzyka i dokumentacja
 
