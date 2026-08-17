@@ -1127,8 +1127,8 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 # Dziękuję za uwagę i czekam na pytania
 
-
-
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 ## 📧 **bezpieczenstwo@best.com.pl** — pytania, prośby, zażalenia
 ## 📧 **rafal.krol@trek2summit.com** — AWS, AI, przeglądy bezpieczeństwa, kawa specialty
 
@@ -1140,14 +1140,18 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 ---
 
 # Do pogłębienia tematu:
-## Whitepaper „Security w środowiskach AI/ML na platformie AWS" — dostępny na żądanie
-## (PL) webinar o Microsoft Intune: www.trek2summit.com/events/whats-new-intune/
-## (EN) webinar o Amazon Quick: www.trek2summit.com/events/first-steps-with-amazon-quick/
-
-
-
+## „Security w środowiskach AI/ML na platformie AWS"
+### Whitepaper dostępny na żądanie
+## (EN), 27 VIII, webinar o Amazon Quick:
+### www.trek2summit.com/events/first-steps-with-amazon-quick/
+## (PL), 15 IX, webinar o Microsoft Intune:
+### www.trek2summit.com/events/whats-new-intune/
 > _"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards — and even then I have my doubts."_
-> — Gene Spafford, profesor informatyki na Uniwersytecie Purdue
+>
+> Gene Spafford, profesor informatyki na Uniwersytecie Purdue
+<!-- column: 1 -->
+![sunset:width:100%](./images/DEVO-sunset.jpeg)
+
 
 <!-- end_slide -->
 
