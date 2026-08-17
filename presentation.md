@@ -316,9 +316,15 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 <!-- end_slide -->
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 ## AI Phishing — ewolucja ataków
 
 Od powstania ChatGPT do połowy 2024 wzrost o ponad **4000%** maili phishingowych generowanych przy pomocy AI (SlashNext)
+
+<!-- column: 1 -->
+![image:width:100%](./images/phishing-without-ai.jpeg)
+<!-- column: 0 -->
 
 AI zmienia phishing w **trzech wymiarach**:
 
@@ -539,6 +545,8 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 **Agent AI = kod wykonujący się z Waszymi uprawnieniami.**
 
 <!-- pause -->
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 
 **1. Dostęp do plików**
 * Agent „naprawiający buga" nadpisuje konfigurację; bez sandboxa widzi `.ssh/`, `.env`, credentials
@@ -553,8 +561,16 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 <!-- pause -->
 
----
+> **Domyślnie read-only.** Write i execute wyłącznie na jawnie zatwierdzonym zakresie.
+<!-- column: 1 -->
+![image:width:100%](./images/hacked-a-gym.jpeg)
 
+<!-- end_slide -->
+
+## Autonomia agentów AI — ryzyka czy szanse? - „bo nie wszyscy są po równo równi”
+
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 **OpenAI Agents vs Hugging Face (lipiec 2026)**
 
 - Agenci uciekli z sandboxa testowego przez zero-day w systemie instalacji pakietów
@@ -562,9 +578,8 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 - Pierwsze udokumentowane autonomiczne włamanie AI do produkcji
 - _OpenAI, TechCrunch — lipiec 2026_
 
-<!-- pause -->
-
-> **Domyślnie read-only.** Write i execute wyłącznie na jawnie zatwierdzonym zakresie.
+<!-- column: 1 -->
+![image:width:100%](./images/hacked-by-accident-double-standards-meme.jpeg)
 
 <!-- end_slide -->
 
@@ -604,6 +619,8 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 ## Prompt Injection — typy
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 **Prompt injection** = spreparowane dane wejściowe wymuszają zachowanie niezgodne z intencją twórcy systemu.
 
 <!-- pause -->
@@ -624,12 +641,15 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 - Użytkownik **nie wie**, że model został zmanipulowany
 - Wektor: mail, SharePoint, Teams, kalendarz, dokument w bazie wiedzy
 
-![mem](images/prompt-injection-via-email-meme.png)
+<!-- column: 1 -->
+![gmail:width:100%](./images/prompt-injection-via-email-meme.png)
 
 <!-- end_slide -->
 
 ## Prompt Injection — obrona
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 **Poziom użytkownika:**
 
 - Weryfikuj wyniki Copilota
@@ -657,6 +677,9 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 - _Dark Reading, TechTarget — sierpień 2024_
 
 **Wniosek:** prompt injection nie da się wyeliminować — można go utrudnić, wykryć i ograniczyć skutki.
+
+<!-- column: 1 -->
+![court:width:100%](./images/prompt-injection-in-court.jpeg)
 
 <!-- end_slide -->
 
@@ -700,6 +723,8 @@ Cykliczny red-teaming przed każdą zmianą promptu, modelu lub bazy wiedzy — 
 
 ## Halucynacje — typy i mechanizm
 
+<!-- column_layout: [2, 2] -->
+<!-- column: 0 -->
 **Halucynacja** = informacja brzmiąca wiarygodnie, ale fałszywa — podana z pełnym przekonaniem.
 
 <!-- pause -->
@@ -722,6 +747,9 @@ Cykliczny red-teaming przed każdą zmianą promptu, modelu lub bazy wiedzy — 
 LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny token. Im bardziej specjalistyczne pytanie, tym większe ryzyko.
 
 **W finansach:** halucynacja w analizie ryzyka lub raporcie compliance → decyzja o realnych skutkach na fałszywych przesłankach.
+
+<!-- column: 1 -->
+![hallucinations:width:100%](./images/ai-copilot-security-flaws-meme.png)
 
 <!-- end_slide -->
 
