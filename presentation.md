@@ -895,13 +895,14 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 **EU AI Act** — klasyfikacja ryzyka i dokumentacja
 
-- Praktyki zakazane od 02.2025, obowiązki dla modeli ogólnego przeznaczenia od 08.2025, systemy wysokiego ryzyka od 08.2026
-- **Art. 50 — obowiązki transparencji** (od 08.2025): użytkownik musi wiedzieć, że rozmawia z AI; treści AI-generated wymagają oznaczenia i maszynowego znakowania (deepfake, tekst, obraz)
+- Praktyki zakazane od 02.2025, obowiązki dla modeli ogólnego przeznaczenia od 08.2025
+- **Art. 50 — obowiązki transparencji: obowiązuje od 02.08.2026**, czyli od dwóch tygodni. Użytkownik musi wiedzieć, że rozmawia z AI; treści generowane przez AI wymagają oznaczenia, w tym maszynowego. Dla systemów już na rynku znakowanie ma czas do 02.12.2026
+- **Systemy wysokiego ryzyka: nie 08.2026, a 02.12.2027** (Annex III) i 02.08.2028 (Annex I) — przesunięte przez Digital Omnibus on AI, w mocy od 27.07.2026
 - Kary: do **35 mln EUR / 7%** obrotu za praktyki zakazane, 15 mln EUR / 3% za pozostałe naruszenia
 
 
 
-**NIS2** — raportowanie incydentów: **24 h** wczesne ostrzeżenie, **72 h** pełne zgłoszenie, **30 dni** raport końcowy
+**NIS2** — raportowanie incydentów: **24 h** wczesne ostrzeżenie, **72 h** pełne zgłoszenie, **1 miesiąc** raport końcowy
 
 **DORA** — obowiązuje od 17.01.2025: rejestr dostawców ICT, testy odporności, strategia wyjścia
 
@@ -917,7 +918,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 <!-- end_slide -->
 
-## Polityki jako enablery innowacji
+## III. Od zagrożeń do rozwiązań: polityki jako enablery innowacji
 
 
 
@@ -950,7 +951,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 <!-- end_slide -->
 
-## Kiedy kontaktować PBI
+## IV. Zamknięcie: kiedy kontaktować PBI
 
 
 
@@ -983,7 +984,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 <!-- end_slide -->
 
-## TL;DR
+## IV. Zamknięcie: TL;DR
 
 
 
@@ -1012,7 +1013,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 <!-- end_slide -->
 
-## Odpowiedzialne AI + PBI
+## IV. Zamknięcie: co możesz zrobić dziś
 
 
 
