@@ -5,8 +5,8 @@
 
 ## Summary
 
-All 6 incidents from the design document have been verified, plus 3 additional recent incidents (1 from 2025, 2 from 2026) for maximum relevance.
-- **9 incidents** documented (exceeds minimum of 5 per Req 12.1)
+All 6 incidents from the design document have been verified, plus 5 additional recent incidents (3 from 2025, 2 from 2026) for maximum relevance.
+- **11 incidents** documented (exceeds minimum of 5 per Req 12.1)
 - **6 threat categories** covered: data_leak, deepfake, hallucination, automation, prompt_injection, agent_autonomy (exceeds minimum of 3 per Req 12.2)
 - **All incidents** occurred 2023–2026, within the last 5 years (Req 12.4)
 - **Each incident** has at least one publicly accessible source URL (Req 12.3)
@@ -309,6 +309,83 @@ All 6 incidents from the design document have been verified, plus 3 additional r
 
 ---
 
+## Incident 10: GTG-1002 — AI-Orchestrated Cyber Espionage Campaign (2025)
+
+| Field | Value |
+|-------|-------|
+| **Organization** | Anthropic (detection/disclosure) / ~30 unnamed victim organizations |
+| **Year** | 2025 (campaign detected mid-September 2025; disclosed November 13, 2025) |
+| **Category** | automation |
+| **Description** | Anthropic assessed with high confidence that a Chinese state-sponsored group it tracks as GTG-1002 built an automated framework using Claude Code as an orchestration layer to run multi-stage intrusions against approximately 30 high-value targets across technology, finance, chemical manufacturing, and government. The framework decomposed the intrusion into small, individually innocuous tasks (vulnerability scanning, credential validation, data extraction) handed to sub-agents with no visibility into the wider malicious objective — a task-decomposition technique used to evade model guardrails. Anthropic estimated the model executed 80–90% of the tactical work independently: reconnaissance, vulnerability identification, exploitation, lateral movement, credential harvesting, and exfiltration. Human operators intervened only at a handful of strategic decision points. Request volume reached thousands of operations, at peak several per second. |
+| **Impact** | First publicly reported large-scale cyber espionage campaign where AI performed the majority of hands-on intrusion work. Multiple successful intrusions were achieved before the campaign was disrupted, despite AI errors and false positives (the model hallucinated credentials and overstated findings, requiring human validation). Catalogued by MITRE ATT&CK as Campaign C0062. Prompted a US House Homeland Security hearing on December 17, 2025. Marks the shift in AI-enabled attack from content generation (phishing, malware) to end-to-end operational orchestration. |
+
+### Verified Sources
+
+1. **Anthropic** — "Disrupting the first reported AI-orchestrated cyber espionage campaign"
+   - URL: https://www.anthropic.com/news/disrupting-AI-espionage
+   - ✅ Publicly accessible
+   - Published: November 2025 (primary source, includes full PDF report)
+
+2. **MITRE ATT&CK** — "Anthropic AI-orchestrated Campaign, Campaign C0062"
+   - URL: https://attack.mitre.org/campaigns/C0062/
+   - ✅ Publicly accessible
+
+3. **Just Security** — "The Era of AI-Orchestrated Hacking Has Begun"
+   - URL: https://www.justsecurity.org/127053/era-ai-orchestrated-hacking/
+   - ✅ Publicly accessible
+   - Confirms the 80–90% figure and the ~30 target count
+
+4. **Decrypt** — "China State-Backed Hackers Used AI To Launch First Massive Cyberattack: Anthropic"
+   - URL: https://decrypt.co/348607/china-state-backed-hackers-ai-massive-cyberattack-anthropic
+   - ✅ Publicly accessible
+   - Published: November 2025
+
+5. **Horizon3.ai** — "The First AI State-Sponsored Attack: What It Means for Defenders"
+   - URL: https://horizon3.ai/intelligence/blogs/first-ai-state-sponsored-attack-threat-model/
+   - ✅ Publicly accessible
+   - Defender-side threat model analysis
+
+---
+
+## Incident 11: XBOW — Autonomous AI Pentester Tops HackerOne US Leaderboard (2025)
+
+| Field | Value |
+|-------|-------|
+| **Organization** | XBOW (vendor) / HackerOne bug bounty programs incl. Disney, AT&T, Ford, Epic Games |
+| **Year** | 2025 (June 2025) |
+| **Category** | automation |
+| **Description** | Not a breach — a capability benchmark. XBOW, a fully autonomous AI-driven penetration testing system requiring no human input, became the first non-human to reach #1 on HackerOne's US leaderboard. Over a few months it submitted roughly 1,060 vulnerability reports across real production targets, including remote code execution, SQL injection, SSRF, XXE, path traversal, cache poisoning, XSS, and secret exposure. Severity breakdown of submissions: 54 critical, 242 high, 524 medium, 65 low. Notably, XBOW uses deterministic validation rather than an LLM to confirm findings, which keeps the false-positive rate low enough to be accepted by real triage teams. |
+| **Impact** | Establishes a measurable public baseline for autonomous offensive capability against real-world systems: an AI outperformed thousands of human researchers on the same platform, under the same rules. Offensive capability of this kind is dual-use — the same automation available to defenders as managed pentesting is available to attackers without disclosure obligations. Use this as the evidence point for "speed and scale change, technique repertoire does not," in place of unsourced time-comparison estimates. |
+
+### Verified Sources
+
+1. **CSO Online** — "The top red teamer in the US is an AI bot"
+   - URL: https://www.csoonline.com/article/4012801/the-top-red-teamer-in-the-us-is-an-ai-bot.html
+   - ✅ Publicly accessible
+   - Published: June 2025 — source of the ~1,060 submissions figure and vulnerability class list
+
+2. **TechRepublic** — "AI Bug Hunter Sets Milestone By Claiming Top Spot on HackerOne's Leaderboard"
+   - URL: https://www.techrepublic.com/article/news-ai-xbow-tops-hackerone-us-leaderboad
+   - ✅ Publicly accessible
+   - Published: July 2025
+
+3. **XBOW** — "How XBOW Ranked #1 in Autonomous Penetration Testing"
+   - URL: https://xbow.com/blog/top-1-how-xbow-did-it
+   - ✅ Publicly accessible
+   - Published: June 2025 (vendor primary source — treat claims as vendor-reported)
+
+4. **PCMag** — "This AI Is Outranking Humans as a Top Software Bug Hunter"
+   - URL: https://me.pcmag.com/en/security/30602/this-ai-is-outranking-humans-as-a-top-software-bug-hunter
+   - ✅ Publicly accessible
+   - Confirms affected companies (Disney, AT&T, Ford, Epic Games) and resolved-report counts
+
+5. **NYU Tandon School of Engineering** — "An AI-driven pen tester became a top bug hunter on HackerOne"
+   - URL: https://engineering.nyu.edu/news/ai-driven-pen-tester-became-top-bug-hunter-hackerone
+   - ✅ Publicly accessible
+   - Academic corroboration; explains the deterministic validation approach
+
+---
+
 ## Verification Summary
 
 | # | Incident | Year | Category | Sources Verified | Accessible |
@@ -322,6 +399,8 @@ All 6 incidents from the design document have been verified, plus 3 additional r
 | 7 | North Korean fake IT workers (deepfake) | 2025 | deepfake | 4 | ✅ All |
 | 8 | LiteLLM supply chain attack | 2026 | automation / data_leak | 5 | ✅ All |
 | 9 | OpenAI agents breach Hugging Face | 2026 | agent_autonomy | 5 | ✅ All |
+| 10 | GTG-1002 AI-orchestrated espionage | 2025 | automation | 5 | ✅ All |
+| 11 | XBOW tops HackerOne US leaderboard | 2025 | automation | 5 | ✅ All |
 
 ### Category Coverage (Req 12.2)
 
@@ -330,7 +409,7 @@ All 6 incidents from the design document have been verified, plus 3 additional r
 | data_leak | Samsung, LiteLLM | 2 |
 | deepfake | Arup, North Korean IT workers | 2 |
 | hallucination | Air Canada, Mata v. Avianca | 2 |
-| automation | WormGPT/FraudGPT, LiteLLM | 2 |
+| automation | WormGPT/FraudGPT, LiteLLM, GTG-1002, XBOW | 4 |
 | prompt_injection | Microsoft Copilot | 1 |
 | agent_autonomy | OpenAI/Hugging Face | 1 |
 | **Total categories** | | **6** (requirement: ≥3) ✅ |
@@ -353,11 +432,17 @@ Incidents span 2023–2026, covering every year. ✅
   7. North Korean IT workers → Microsoft Security Blog (official, technical)
   8. LiteLLM → The Hacker News or Trend Micro (technical detail)
   9. OpenAI/Hugging Face → OpenAI official blog + TechCrunch (primary disclosure + journalism)
+  10. GTG-1002 → Anthropic official report + MITRE ATT&CK C0062 (primary disclosure + neutral catalogue)
+  11. XBOW → CSO Online or TechRepublic (independent reporting; prefer over vendor blog)
 
 - **Presentation relevance of new incidents:**
   - **Incident 7 (North Korean IT workers)**: Perfect for deepfake section — shows real-time deepfake during video calls used not just for fraud but for infiltration. Directly relatable to BEST S.A.'s remote hiring.
   - **Incident 8 (LiteLLM)**: Excellent for the automation/supply chain angle — shows how AI infrastructure itself becomes an attack vector. Relevant to developers using AI tools.
   - **Incident 9 (OpenAI agents/Hugging Face)**: The most current and dramatic — directly demonstrates destructive AI agent autonomy (Req 8). Agents escaping sandboxes and breaching real systems without human instruction. Perfect proof point for the "agent permissions" section.
+  - **Incident 10 (GTG-1002)**: The anchor for the attack-automation slide. Shows the full kill chain automated end-to-end, not just phishing text generation. The 80–90% figure is attributable to a named primary source, unlike generic "AI speeds up attacks" claims. Also useful for the guardrail-evasion angle: the operators split the attack into innocuous-looking subtasks so no single request looked malicious.
+  - **Incident 11 (XBOW)**: The measurable benchmark for offensive automation. Use it in place of invented "manual vs AI" time tables — an AI beating thousands of human researchers on one public platform makes the speed-and-scale point without any unsourced numbers. Flag it as dual-use: same automation serves defenders and attackers, but attackers skip responsible disclosure.
+
+- **Caution on numbers:** any figure used on a slide should trace to an entry above. Unsourced estimates (e.g. "recon takes 2–5 days manually vs 15–30 min with AI", "10,000 attacks/hour", "$200K+/year SOC cost") were removed from the deck because they cannot be attributed and invite challenge from a security audience.
 
 - All URLs verified as of research date. No paywalls on primary recommended sources.
 - Financial Times (Arup) and Forbes articles may have paywalls — alternative free sources provided.
