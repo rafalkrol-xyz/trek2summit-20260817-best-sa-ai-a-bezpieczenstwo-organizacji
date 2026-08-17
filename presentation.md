@@ -33,7 +33,7 @@ Metoda na wnuczka, phishing, afrykański szwindel... od teraz na sterydach
 
 #### Czy mamy bać się AI?
 
-Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
+Nie, ale **warto zadbać o bezpieczeństwo i zakumplować się z PBI**
 
 <!-- column: 1 -->
 
@@ -45,10 +45,11 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 <!-- column: 0 -->
 ## Agenda
 
-**1. Krajobraz zagrożeń AI**
-* Skala problemu i kontekst BEST S.A.
+**I. Wprowadzenie**
+* Skala problemu
+* kontekst BEST S.A.
 
-**2. Osiem kategorii zagrożeń**
+**II. Osiem kategorii zagrożeń**
 * Wycieki danych
 * Shadow AI
 * phishing i vishing
@@ -58,13 +59,13 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 * prompt injection
 * halucynacje
 
-**3. Od zagrożeń do rozwiązań**
+**III. Od zagrożeń do rozwiązań**
 * best practices
 * framework oceny ryzyka
 * narzędzia AWS i Azure
 * regulacje
 
-**4. Zamknięcie**
+**IV. Zamknięcie**
 * TL;DR
 * Q&A
 * materiały dodatkowe
@@ -76,7 +77,7 @@ Nie, ale warto zadbać o bezpieczeństwo i zakumplować się z PBI
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
-## Krajobraz zagrożeń AI
+## I. Wprowadzenie
 
 **Osiem kategorii zagrożeń AI**, które zdefiniowały krajobraz ostatnich paru lat:
 
@@ -102,7 +103,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- end_slide -->
 
-## Skala problemu
+## I. Wprowadzenie: skala problemu
 
 **Adopcja wyprzedza kontrolę:**
 
@@ -121,6 +122,7 @@ Cztery warstwy, w których te kategorie się układają:
 ---
 
 > **Praca w security gwarantuje job security.**
+>
 > Rafał Król na konferencji bezpieczeństwa w BEST S.A.
 
 ![image:width:100%](./images/DEVO-whirlwind.jpeg)
@@ -129,7 +131,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
-## Kontekst BEST S.A. — Copilot + AWS
+## I. Wprowadzenie: kontekst BEST S.A. — Copilot + AWS
 
 **Microsoft 365 + Copilot**
 
@@ -137,10 +139,14 @@ Cztery warstwy, w których te kategorie się układają:
 - Każdy prompt to potencjalny kontakt z danymi klientów
 - Złośliwa treść w mailu może pokierować Copilotem bez wiedzy użytkownika
 
+---
+
 **Migracja do AWS**
 
 - Nowe workloady = nowe możliwości AI (Bedrock, AgentCore, SageMaker)
 - Multi-cloud = więcej integracji = większa powierzchnia ataku
+
+---
 
 **Sektor finansowy — mnożnik ryzyka**
 
@@ -152,7 +158,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- end_slide -->
 
-## Wycieki danych — mechanizmy
+## II. Osiem kategorii zagrożeń: wycieki danych — mechanizmy
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
@@ -180,7 +186,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- end_slide -->
 
-## Wycieki danych — incydenty
+## II. Osiem kategorii zagrożeń: wycieki danych — incydenty
 
 **Samsung Electronics / ChatGPT (2023)**
 
@@ -207,7 +213,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 <!-- end_slide -->
 
-## Wycieki danych — enterprise vs zwykły konsument
+## II. Osiem kategorii zagrożeń: wycieki danych — enterprise vs zwykły konsument
 
 | Wymiar | Enterprise | Konsument |
 |---|---|---|
@@ -248,11 +254,11 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
-## Shadow AI — zagrożenia
+## II. Osiem kategorii zagrożeń: Shadow AI — zagrożenia
 
 **Shadow AI** = narzędzia AI używane bez wiedzy organizacji — poza kontrolą IT, compliance i PBI.
 
-
+---
 
 1. **Wyciek danych do niekontrolowanych modeli**
 * Brak Data Loss Prevention (DLP), brak logów, brak możliwości audytu
@@ -281,7 +287,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 <!-- end_slide -->
 
-## Shadow AI — konsekwencje
+## II. Osiem kategorii zagrożeń: Shadow AI — konsekwencje
 
 **Jak omija governance:**
 
@@ -316,7 +322,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
-## AI Phishing — ewolucja ataków
+## II. Osiem kategorii zagrożeń: AI Phishing — ewolucja ataków
 
 > Od powstania ChatGPT do połowy 2024 wzrost o ponad **4000%** maili phishingowych generowanych przy pomocy AI
 >
@@ -346,7 +352,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 <!-- end_slide -->
 
-## AI Phishing — tradycyjny vs AI
+## II. Osiem kategorii zagrożeń: AI Phishing — tradycyjny vs AI
 
 <!-- column_layout: [1, 1] -->
 
@@ -395,7 +401,7 @@ Zatem podejrzane wiadomości weryfikujemy kanałem zwrotnym, a nie samą analiz�
 
 <!-- end_slide -->
 
-## Vishing — klonowanie głosu
+## II. Osiem kategorii zagrożeń: Vishing — klonowanie głosu
 
 **Jak to działa:**
 
@@ -426,7 +432,7 @@ Narzędzia komercyjne i open-source: koszt rzędu kilkudziesięciu dolarów mies
 
 <!-- end_slide -->
 
-## Deepfake — mechanizm
+## II. Osiem kategorii zagrożeń: Deepfake — mechanizm
 
 **Deepfake** = obraz, głos lub wideo wygenerowane przez AI w celu manipulacji.
 
@@ -448,13 +454,13 @@ Narzędzia komercyjne i open-source: koszt rzędu kilkudziesięciu dolarów mies
 - Koszt: od $0 (open-source) do ~$20 (komercyjne API)
 - Czas: sekundy dla głosu, minuty dla wideo
 - Jakość przekroczyła próg wykrywalności ludzkiego oka w 2023
-- Stosowane przez Koreę Północną
+- **Stosowane przez Koreę Północną**
   - real-time deepfake na Zoomie → fałszywi pracownicy IT w firmach amerykańskich
   - (CrowdStrike: **47%** infiltracji w US tech to DPRK, 2026)
 
 <!-- end_slide -->
 
-## Deepfake — przypadek Arup
+## II. Osiem kategorii zagrożeń: Deepfake — przypadek Arup
 
 **Arup (2024) — $25 mln straty**
 
