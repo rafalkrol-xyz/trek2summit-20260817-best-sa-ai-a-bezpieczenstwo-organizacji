@@ -29,13 +29,13 @@ Każde z tych zdarzeń zaczęło się od czegoś zwykłego:
 
 <!-- column: 0 -->
 
-<!-- pause -->
+
 
 ### AI jako wzmacniacz istniejących już technik
 
 Metoda na wnuczka, phishing, afrykański szwindel... od teraz na sterydach
 
-<!-- pause -->
+
 
 #### Czy mamy bać się AI?
 
@@ -114,7 +114,7 @@ Cztery warstwy, w których te kategorie się układają:
 - **96%** organizacji planuje szerzej używać agentów AI — a bezpieczeństwo danych wskazuje jako główną barierę (Cloudera 2025)
 - **~30%** projektów GenAI porzuconych po fazie PoC z powodu niewystarczających kontroli ryzyka (Gartner 2024)
 
-<!-- pause -->
+
 
 **Zagrożenia rosną w tym samym tempie:**
 
@@ -158,21 +158,21 @@ Cztery warstwy, w których te kategorie się układają:
 - Darmowe narzędzia domyślnie używają konwersacji do treningu
 - Dane stają się częścią wag modelu — **nie da się ich wycofać**
 
-<!-- pause -->
+
 
 **2. Logowanie i przechowywanie konwersacji**
 
 - Retencja od 30 dni do bezterminowej
 - Data breach u dostawcy AI = wyciek **Waszych** danych
 
-<!-- pause -->
+
 
 **3. Udostępnianie danych stronom trzecim**
 
 - Pluginy, integracje, Custom GPT — dane przechodzą przez cudze serwery
 - Shared links do konwersacji = przypadkowe upublicznienie
 
-<!-- pause -->
+
 
 **4. Ekstrakcja przez prompt injection**
 
@@ -191,7 +191,7 @@ Cztery warstwy, w których te kategorie się układają:
   * zakaz został cofnięty w czerwcu tego roku
 - _TechRadar, The Register, Mashable — kwiecień 2023_
 
-<!-- pause -->
+
 
 **LiteLLM / BerriAI — supply chain (marzec 2026)**
 
@@ -200,7 +200,7 @@ Cztery warstwy, w których te kategorie się układają:
 - **2500+ organizacji** skompromitowanych, 153 GB skradzionych credentials (AWS, Cisco, Salesforce)
 - _The Hacker News, SecurityWeek, Trend Micro — marzec/sierpień 2026_
 
-<!-- pause -->
+
 
 ---
 
@@ -222,7 +222,7 @@ Cztery warstwy, w których te kategorie się układają:
 | **Audit log** | CloudTrail, Azure Monitor | brak wglądu |
 | **Data residency** | wybór regionu | brak gwarancji |
 
-<!-- pause -->
+
 
 **Co to oznacza w praktyce:**
 
@@ -234,7 +234,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 _enterprise z kontraktem **lepsze niż** konsument z opt-out **lepsze niż** consumer bez opt-out_
 
-<!-- pause -->
+
 
 ## Ale
 
@@ -243,7 +243,7 @@ _enterprise z kontraktem **lepsze niż** konsument z opt-out **lepsze niż** con
 3. **Anthropic** dla API i Claude Code enterprise oferuje ZDR, ale **musisz mieć dedykowaną umowę**. Bez niej: 30 dni retencji. Dla _covered models_ retencja 30 dni jest obligatoryjna nawet z ZDR.
 4. **Gemini Enterprise Agent Platform** (dawniej Vertex AI) — **wymaga jednego lub dwóch kroków**: wyłączenia data caching na poziomie projektu oraz opt-out z abuse monitoring, jeśli nie masz umowy Enterprise.
 
-<!-- pause -->
+
 
 ## Ale, ale
 
@@ -257,7 +257,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 
 **Shadow AI** = narzędzia AI używane bez wiedzy organizacji — poza kontrolą IT, compliance i PBI.
 
-<!-- pause -->
+
 
 1. **Wyciek danych do niekontrolowanych modeli**
 * Brak Data Loss Prevention (DLP), brak logów, brak możliwości audytu
@@ -271,7 +271,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 <!-- column: 1 -->
 ![shadow ai:width:100%](./images/shadow-ai-meme.jpeg)
 
-<!-- pause -->
+
 <!-- reset_layout -->
 
 **Scenariusze w firmie finansowej:**
@@ -293,7 +293,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 — Data Protection Officer (DPO) nie wie o przetwarzaniu
 - Copy-paste do przeglądarki wygląda dla DLP jak legalna operacja
 
-<!-- pause -->
+
 
 **Poziom organizacji:**
 
@@ -303,7 +303,7 @@ _Covered models_ (obecnie **Claude Mythos 5** i **Claude Fable 5**) to termin An
 | Sankcje KNF | kary administracyjne, ryzyko licencyjne |
 | Data breach | utrata zaufania klientów, pozwy |
 
-<!-- pause -->
+
 
 **Poziom pracownika:**
 
@@ -328,14 +328,14 @@ Od powstania ChatGPT do połowy 2024 wzrost o ponad **4000%** maili phishingowyc
 
 AI zmienia phishing w **trzech wymiarach**:
 
-<!-- pause -->
+
 
 **1. Jakość językowa**
 
 - Perfekcyjna gramatyka i styl — zero literówek
 - Natywny język ofiary, rejestr językowy dopasowany do kanału
 
-<!-- pause -->
+
 
 **2. Personalizacja**
 
@@ -343,7 +343,7 @@ AI zmienia phishing w **trzech wymiarach**:
 - Referencje do realnych projektów i współpracowników
 - Timing — wiadomość trafia w kontekście
 
-<!-- pause -->
+
 
 **3. Skalowalność**
 
@@ -371,7 +371,7 @@ _Dział Bezpeczności ING"_
 ❌ Generyczny — brak danych
 ❌ Łatwy do wykrycia
 
-<!-- pause -->
+
 
 <!-- column: 1 -->
 
@@ -391,7 +391,7 @@ _Katarzyna Nowak, ING"_
 
 <!-- reset_layout -->
 
-<!-- pause -->
+
 
 **Wniosek:** tradycyjne red flags — błędy, presja, generyczność — **przestają działać**. Weryfikujemy kanałem zwrotnym, nie analizą treści.
 
@@ -407,7 +407,7 @@ _Katarzyna Nowak, ING"_
 
 Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięcznie.
 
-<!-- pause -->
+
 
 **Incydent: CEO voice clone fraud (2019)**
 
@@ -415,7 +415,7 @@ Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięc
 >
 > _— Euler Hermes / The Wall Street Journal_
 
-<!-- pause -->
+
 
 **Weryfikacja — cztery techniki:**
 
@@ -436,14 +436,14 @@ Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięc
 - **Głos** — synteza z kilku sekund nagrania
 - **Wideo** — face-swap w czasie rzeczywistym lub w postprodukcji
 
-<!-- pause -->
+
 
 | Tryb | Zastosowanie |
 |---|---|
 | **Real-time** | wideokonferencje, autoryzacja transakcji |
 | **Nagranie** | dezinformacja, manipulacja rynkiem, szantaż |
 
-<!-- pause -->
+
 
 **Skala:**
 
@@ -465,7 +465,7 @@ Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięc
 - Pracownik wykonał przelewy na polecenie „zarządu"
 - _CNN, South China Morning Post — luty 2024_
 
-<!-- pause -->
+
 
 **Jak rozpoznać — bez specjalistycznych narzędzi:**
 
@@ -475,7 +475,7 @@ Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięc
 - Metaliczny ton głosu
 - Brak mikro-pauz — mowa zbyt płynna
 
-<!-- pause -->
+
 
 **Procedura przy podejrzeniu:**
 
@@ -490,22 +490,22 @@ Narzędzia komercyjne i open-source: koszt do kilkudziesięciu dolarów miesięc
 
 AI automatyzuje **każdy etap** łańcucha ataku:
 
-<!-- pause -->
+
 
 **1. Rekonesans**
 * LLM analizuje publiczne commity firmy → stack technologiczny, wersje bibliotek, nazwy systemów wewnętrznych
 
-<!-- pause -->
+
 
 **2. Skanowanie podatności**
 * Model automatycznie testuje tysiące wariantów zapytań do API → znajduje podatność SQL injection w 3 minuty zamiast 3 dni
 
-<!-- pause -->
+
 
 **3. Generowanie exploitów**
 * Opis CVE → działający PoC z obejściem WAF w minuty
 
-<!-- pause -->
+
 
 | Etap | Manualnie | Z AI |
 |---|---|---|
@@ -525,7 +525,7 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 | **Skala** | 10 000 ataków/h | triage 50 alertów/h |
 | **Adaptacja** | warianty w realtime | reguły raz w tygodniu |
 
-<!-- pause -->
+
 
 **WormGPT / FraudGPT (2023)**
 
@@ -534,7 +534,7 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 - FraudGPT rozszerzył ofertę o generowanie malware
 - _SlashNext, Wired, Dark Reading — lipiec/sierpień 2023_
 
-<!-- pause -->
+
 
 **Konsekwencja:** próg wejścia dla atakującego spadł praktycznie do zera. Obrona to **AI po stronie defensywy** + świadomość pracowników.
 
@@ -544,7 +544,7 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 
 **Agent AI = kod wykonujący się z Waszymi uprawnieniami.**
 
-<!-- pause -->
+
 <!-- column_layout: [2, 2] -->
 <!-- column: 0 -->
 
@@ -559,7 +559,7 @@ AI automatyzuje **każdy etap** łańcucha ataku:
 
 OWASP nazywa to *excessive agency* i *insecure tool use*.
 
-<!-- pause -->
+
 
 > **Domyślnie read-only.** Write i execute wyłącznie na jawnie zatwierdzonym zakresie.
 <!-- column: 1 -->
@@ -599,7 +599,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 ⚠️ Domyślnie agent pyta o każdą operację write i shell — ale jedno „Trust always" wyłącza te pytania na stałe.
 
-<!-- pause -->
+
 
 **Cztery kontrole, które trzymają agenta w ryzach:**
 
@@ -608,7 +608,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 - **Sandbox wykonania** — narzędzia w izolowanym środowisku, np.: docker sbx
 - **Pełne logowanie wywołań** — parametry, wyniki, ślad konwersacji
 
-<!-- pause -->
+
 
 | Platforma | Mechanizm |
 |---|---|
@@ -623,7 +623,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 <!-- column: 0 -->
 **Prompt injection** = spreparowane dane wejściowe wymuszają zachowanie niezgodne z intencją twórcy systemu.
 
-<!-- pause -->
+
 
 **Direct — atakujący pisze wprost do modelu**
 
@@ -631,7 +631,7 @@ OWASP nazywa to *excessive agency* i *insecure tool use*.
 
 Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 
-<!-- pause -->
+
 
 **Indirect — złośliwa treść w przetwarzanych danych**
 
@@ -655,7 +655,7 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 - Weryfikuj wyniki Copilota
 - Nie wklejaj niezweryfikowanych treści do AI
 
-<!-- pause -->
+
 
 **Poziom systemu:**
 
@@ -665,7 +665,7 @@ Cel: obejście guardrails. Bez Guardrails model wykona instrukcję.
 - **Guardrails** na wejściu i wyjściu: AWS Bedrock Guardrails ↔ Azure AI Content Safety
 - **Monitoring anomalii** — nietypowe długości promptów, wzrost blokad w krótkim oknie
 
-<!-- pause -->
+
 
 ---
 
@@ -708,7 +708,7 @@ redteam:
   numTests: 50
 ```
 
-<!-- pause -->
+
 
 **Uruchomienie:**
 
@@ -727,14 +727,14 @@ Cykliczny red-teaming przed każdą zmianą promptu, modelu lub bazy wiedzy — 
 <!-- column: 0 -->
 **Halucynacja** = informacja brzmiąca wiarygodnie, ale fałszywa — podana z pełnym przekonaniem.
 
-<!-- pause -->
+
 
 | Typ | Na czym polega |
 |---|---|
 | **Factual fabrication** | model wymyśla fakty, cytaty i źródła, które nie istnieją |
 | **Confident confabulation** | prawdziwe fragmenty złożone w fałszywy wniosek |
 
-<!-- pause -->
+
 
 **Dlaczego to zagrożenie biznesowe:**
 
@@ -742,7 +742,7 @@ Cykliczny red-teaming przed każdą zmianą promptu, modelu lub bazy wiedzy — 
 - **Bedrock** w pipeline RAG generuje odpowiedź klientowi z fałszywymi danymi
 - **ChatGPT** „znajduje" nieistniejące regulacje i precedensy
 
-<!-- pause -->
+
 
 LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny token. Im bardziej specjalistyczne pytanie, tym większe ryzyko.
 
@@ -762,7 +762,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 - **Precedens:** halucynacja AI = błąd pracownika
 - _CBC News, BBC — luty 2024_
 
-<!-- pause -->
+
 
 **Mata v. Avianca (2023)**
 
@@ -780,7 +780,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 ---
 
-<!-- pause -->
+
 
 **Praktyki weryfikacji:**
 
@@ -796,7 +796,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 ### Zachowania indywidualne
 
-<!-- pause -->
+
 
 - ✅ **Klasyfikuj dane przed wklejeniem** — „czy to może być publiczne?"
   → korzystasz z AI bez ryzyka i stresu
@@ -805,7 +805,7 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 - ✅ **Używaj zatwierdzonych narzędzi** — lista u PBI
   → masz pewność, że dane nie trafią do treningu modelu
 
-<!-- pause -->
+
 
 - ❌ **Nie wklejaj danych klientów** do niezatwierdzonych chatbotów
 - ❌ **Nie kopiuj kodu produkcyjnego** do publicznych modeli
@@ -817,14 +817,14 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 ### Polityki organizacyjne
 
-<!-- pause -->
+
 
 - **Rejestr zatwierdzonych narzędzi AI** (PBI)
 - **Klasyfikacja danych dla AI** — publiczne / wewnętrzne / poufne
 - **Audit logging interakcji z AI**
 - **Human-in-the-loop dla decyzji krytycznych**
 
-<!-- pause -->
+
 
 - **Regularny red-teaming** — testuj, zanim zrobi to atakujący
 - **Least privilege dla agentów** — domyślnie read-only
@@ -838,28 +838,28 @@ LLM **nie rozumie prawdy** — przewiduje najbardziej prawdopodobny następny to
 
 _zapytaj PBI, zanim zaczniesz_
 
-<!-- pause -->
+
 
 **1. Gdzie trafiają moje dane?**
 
 - Czy narzędzie trenuje na moich danych i jak długo je trzyma?
 - Czy dane zostają w wybranym regionie?
 
-<!-- pause -->
+
 
 **2. Kto ma dostęp i kontrolę?**
 
 - Czy PBI zna i zatwierdza to narzędzie?
 - Czy istnieje audit log moich interakcji?
 
-<!-- pause -->
+
 
 **3. Co się stanie, gdy AI się pomyli?**
 
 - Czy wynik wpływa na decyzje finansowe, prawne lub klienckie?
 - Czy konsekwencje błędu są odwracalne?
 
-<!-- pause -->
+
 
 **4. Czy istnieje zatwierdzona alternatywa?**
 
@@ -874,7 +874,7 @@ _zapytaj PBI, zanim zaczniesz_
 - Infrastruktura, hosting modeli bazowych, izolacja użytkowników
 - Wejścia i wyjścia z Bedrock **nie trenują** modeli AWS ani modeli partnerów i nie są udostępniane innym klientom
 
-<!-- pause -->
+
 
 **Wy (lub Partner) odpowiadacie za bezpieczeństwo _w chmurze_**
 
@@ -882,7 +882,7 @@ _zapytaj PBI, zanim zaczniesz_
 - Uprawnienia IAM dla użytkowników, aplikacji i agentów; izolacja sieciowa, szyfrowanie kluczami KMS
 - Źródła w bazach wiedzy RAG i walidacja wyjść narzędzi
 
-<!-- pause -->
+
 
 **Granica przesuwa się wraz z modelem konsumpcji:**
 * Bedrock (najwięcej po stronie AWS)
@@ -897,7 +897,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Narzędzia bezpieczeństwa — AWS
 
-<!-- pause -->
+
 
 **1. Amazon Bedrock Guardrails** — polityka niezależna od modelu, działa na wejściu i wyjściu
 
@@ -905,14 +905,14 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - Praktyka: jeden guardrail bazowy dla firmy + warstwa per use case
 - _Odpowiednik Azure:_ Azure AI Content Safety
 
-<!-- pause -->
+
 
 **2. IAM + kontrola dostępu do modeli**
 
 - Least privilege dla każdej aplikacji i agenta, ograniczenie do konkretnych modeli i akcji
 - _Odpowiednik Azure:_ Microsoft Entra ID + RBAC
 
-<!-- pause -->
+
 
 **3. CloudTrail + Bedrock model invocation logging**
 
@@ -920,7 +920,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - Bez tych logów SOC nie ma materiału do wykrycia prompt injection
 - _Odpowiednik Azure:_ Azure Monitor + Diagnostic Settings
 
-<!-- pause -->
+
 
 **4. Amazon Macie** — wykrywanie danych wrażliwych w S3, także w logach promptów
 
@@ -930,14 +930,14 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Narzędzia bezpieczeństwa — Azure
 
-<!-- pause -->
+
 
 **1. Azure AI Content Safety**
 
 - Detekcja treści szkodliwych, prompt injection i jailbreaków; konfigurowalne progi severity
 - _Odpowiednik AWS:_ Amazon Bedrock Guardrails
 
-<!-- pause -->
+
 
 **2. Microsoft Purview**
 
@@ -945,7 +945,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - DLP blokuje wysyłanie sklasyfikowanych danych do niezatwierdzonych narzędzi AI
 - _Odpowiednik AWS:_ Amazon Macie + AWS Lake Formation
 
-<!-- pause -->
+
 
 **3. Microsoft Defender for Cloud**
 
@@ -953,7 +953,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - Alerty na podejrzane wzorce użycia AI
 - _Odpowiednik AWS:_ AWS Security Hub + Amazon GuardDuty
 
-<!-- pause -->
+
 
 **4. Azure Information Protection**
 
@@ -966,32 +966,32 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ### Działają niezależnie od platformy
 
-<!-- pause -->
+
 
 - **Least privilege dla agentów AI**
   Domyślnie read-only; write i execute po jawnej aprobacie
 
-<!-- pause -->
+
 
 - **Klasyfikacja danych przed użyciem AI**
   Dane poufne i regulowane — nigdy do narzędzi bez izolacji enterprise
 
-<!-- pause -->
+
 
 - **Human-in-the-loop dla decyzji krytycznych**
   Żaden model nie decyduje samodzielnie w finansach, prawie, medycynie i HR
 
-<!-- pause -->
+
 
 - **Audit logging wszystkich interakcji z AI**
   Podstawa forensics i compliance
 
-<!-- pause -->
+
 
 - **Regularny red-teaming**
   PromptFoo, Garak, testy manualne — w cyklu bezpieczeństwa
 
-<!-- pause -->
+
 
 - **Inwentaryzacja modeli i przypadków użycia**
   Rejestr modeli i AI Bill of Materials (BOM)
@@ -1006,7 +1006,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - **Art. 50 — obowiązki transparencji** (od 08.2025): użytkownik musi wiedzieć, że rozmawia z AI; treści AI-generated wymagają oznaczenia i maszynowego znakowania (deepfake, tekst, obraz)
 - Kary: do **35 mln EUR / 7%** obrotu za praktyki zakazane, 15 mln EUR / 3% za pozostałe naruszenia
 
-<!-- pause -->
+
 
 **NIS2** — raportowanie incydentów: **24 h** wczesne ostrzeżenie, **72 h** pełne zgłoszenie, **30 dni** raport końcowy
 
@@ -1014,7 +1014,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 **RODO** — DPIA, minimalizacja, art. 22 o decyzjach automatycznych. Logi promptów to zbiór danych osobowych: retencja, szyfrowanie, kontrola dostępu
 
-<!-- pause -->
+
 
 **Konsekwencja:** to obowiązki **zarządcze**, nie tylko inżynierskie — rejestr modeli i przypadków użycia, nadzór człowieka, procedury reagowania na incydenty AI.
 
@@ -1026,12 +1026,12 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Polityki jako enablery innowacji
 
-<!-- pause -->
+
 
 > **„Dobra polityka bezpieczeństwa jest jak pas w samochodzie — nie ogranicza prędkości, ale pozwala jechać pewniej."**
 > Kiro, Agent AI
 
-<!-- pause -->
+
 
 **Jak polityki przyspieszają innowację:**
 
@@ -1041,14 +1041,14 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ---
 
-<!-- pause -->
+
 
 **Bez polityk:**
 
 - Nie wiem, czy wolno → **nie korzystam z AI wcale** lub korzystam ukradkiem (**Shadow AI**)
 - Incydent bez logów → **długi postmortem, brak wniosków, konsekwencje dyscyplinarne i finansowe**
 
-<!-- pause -->
+
 
 **Z politykami:**
 
@@ -1059,32 +1059,32 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Kiedy kontaktować PBI
 
-<!-- pause -->
+
 
 > **PBI jest po to, żeby pomóc Wam korzystać z AI bezpiecznie — nie żeby karać za pytania.**
 > Kamil Gapiński, Senior Cybersecurity Engineer w PBI
 
-<!-- pause -->
+
 
 * **Chcesz zwiększyć swoją efektywność dzięki AI?**
 
-<!-- pause -->
+
 
 * **Widzisz podejrzany output AI lub próbę socjotechniki**
 
-<!-- pause -->
+
 
 * **Nie wiesz, jakich zabezpieczeń wymaga Twój use case**
 
-<!-- pause -->
+
 
 * **Udostępniłeś poufne dane narzędziu AI**
 
-<!-- pause -->
+
 
 * **Chcesz użyć narzędzia spoza listy zatwierdzonych**
 
-<!-- pause -->
+
 
 ## **Kontakt:** **bezpieczenstwo@best.com.pl**
 
@@ -1092,27 +1092,27 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## TL;DR
 
-<!-- pause -->
+
 
 ### **1. Klasyfikuj dane, zanim trafią do AI**
 * Narzędzia Enterprise chronią Twoje dane, te konsumenckie już niekoniecznie
 
-<!-- pause -->
+
 
 ### **2. Używaj wyłącznie zatwierdzonych narzędzi**
 * Shadow AI = ryzyko bez ścieżki audytu
 
-<!-- pause -->
+
 
 ### **3. Weryfikuj nietypowe prośby drugim kanałem**
 * Pilne + finansowe + nietypowe -> telefon na znany numer
 
-<!-- pause -->
+
 
 ### **4. Agenci AI domyślnie read-only i/lub w piaskownicy**
 * Jedno „Trust always” = pełny dostęp do systemu na wieki wieków
 
-<!-- pause -->
+
 
 ### **5. PBI to partner — kto pyta, nie błądzi**
 * Szybka ocena narzędzia zamiast potencjalnych, nieprzyjemnych konsekwencji
@@ -1121,13 +1121,13 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 ## Odpowiedzialne AI + PBI
 
-<!-- pause -->
+
 
 > **„Nie trzeba znać się na wszystkim.**
 > **Ale, trzeba wiedzieć kogo zapytać”.**
 > Nestor Aragon, Motorola Solutions
 
-<!-- pause -->
+
 
 **Co możesz zrobić dziś:**
 
@@ -1136,7 +1136,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 - ✅ Ustal z zespołem _hasło masło_ do weryfikacji nietypowych próśb
 - ✅ Zapisz kontakt do PBI — w trakcie incydentu nie chcesz go szukać
 
-<!-- pause -->
+
 
 📧 **bezpieczenstwo@best.com.pl**
 
@@ -1144,7 +1144,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 
 # Dziękuję za uwagę i czekam na pytania
 
-<!-- pause -->
+
 
 ## 📧 **bezpieczenstwo@best.com.pl** — pytania, prośby, zażalenia
 ## 📧 **rafal.krol@trek2summit.com** — AWS, AI, przeglądy bezpieczeństwa, kawa specialty
@@ -1161,7 +1161,7 @@ _Za whitepaperem: Trek2Summit, „Security w środowiskach AI/ML na AWS" (2026)_
 ## (PL) webinar o Microsoft Intune: www.trek2summit.com/events/whats-new-intune/
 ## (EN) webinar o Amazon Quick: www.trek2summit.com/events/first-steps-with-amazon-quick/
 
-<!-- pause -->
+
 
 > _"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards — and even then I have my doubts."_
 > — Gene Spafford, profesor informatyki na Uniwersytecie Purdue
