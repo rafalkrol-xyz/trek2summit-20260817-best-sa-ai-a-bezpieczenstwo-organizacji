@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-Not a software project — it is the source for a **conference talk**: „AI a bezpieczeństwo organizacji" (AI and organizational security), delivered in Polish by Rafał Król (Head of AWS Technologies, Trek2Summit) at an internal BEST S.A. security conference on **2026-08-17**. 45 minutes including Q&A, audience of ~200 online + ~30 on-site with medium-to-high AI literacy. BEST S.A. is migrating workloads to AWS while employees use Microsoft 365 / Copilot — hence the deliberate AWS + Azure balance in the content.
+Not a software project — it is the source for a **conference talk**: „AI a bezpieczeństwo organizacji" (AI and organizational security), delivered in Polish by Rafał Król (Head of AWS Technologies, Trek2Summit) at an internal BEST S.A. security conference on **2026-08-18**. 45 minutes including Q&A, audience of ~200 online + ~30 on-site with medium-to-high AI literacy. BEST S.A. is migrating workloads to AWS while employees use Microsoft 365 / Copilot — hence the deliberate AWS + Azure balance in the content.
 
 The single deliverable is `presentation.md`, a [presenterm](https://github.com/mfontanini/presenterm) terminal slideshow (presenterm 0.16.1 installed via Homebrew).
 
@@ -42,7 +42,7 @@ These are the editorial choices `presentation.md` already follows — match them
 
 - **Polish prose, English technical terms.** Keep "prompt injection", "deepfake", "Shadow AI", "vishing" and product names (AWS, Bedrock, Copilot, Purview) in English. Don't define basic AI concepts — the audience already uses Copilot daily.
 - **Expert, non-promotional tone.** Factual analysis and documented incidents, no vendor sales pitch.
-- **Every incident cites a verifiable public source.** `research/incidents.md` is the fact base: 9 incidents across 6 categories, each with organization, year, category, description, impact and checked source URLs. Add new incidents there first, then cite them on a slide.
+- **Every incident cites a verifiable public source.** `research/incidents.md` is the fact base: 11 incidents across 6 categories, each with organization, year, category, description, impact and checked source URLs. Add new incidents there first, then cite them on a slide.
 - **AWS and Azure stay roughly balanced**, and a platform-specific tool is named alongside its counterpart on the other platform (Bedrock Guardrails ↔ Azure AI Content Safety, Macie ↔ Purview, and so on).
 - **Threats first, then empowerment.** Roughly 60% of slides cover threats and 40% cover defense, best practices and closing. The ending points employees to PBI (Pion Bezpieczeństwa Informacji) framed as a partner, not an enforcement body.
 - `my_notes.md` is the presenter's untracked scratchpad of ideas not yet in the deck (pre-AI fraud cases, EU AI Act Article 50, Bedrock Guardrails / ZDR links). Treat it as a backlog of candidate material, not as content.
