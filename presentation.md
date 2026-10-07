@@ -235,7 +235,7 @@ Cztery warstwy, w których te kategorie się układają:
 
 _enterprise z kontraktem **lepsze niż** konsument z opt-out **lepsze niż** consumer bez opt-out_
 
-<!-- pause -->
+<!-- end_slide -->
 
 ## Ale
 
